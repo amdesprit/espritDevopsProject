@@ -1,7 +1,10 @@
 
-2021- 11-14 16:46:40 tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:140):140 - Dans getEntrepriseById() : 
-2021- 11-14 16:46:40 tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:141):141 - Get de l'entreprise 1
-2021- 11-14 16:46:40 tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:149):149 - Erreure dans getEntrepriseById java.util.NoSuchElementException: No value present
-2021- 11-14 16:46:53 tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:142):142 - Dans getSalaireByEmployeIdJPQL() : 
-2021- 11-14 16:46:53 tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:143):143 - Afficher salaire de l'employe 1
-2021- 11-14 16:46:53 tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:151):151 - Erreur dans getSalaireByEmployeIdJPQL org.springframework.aop.AopInvocationException: Null return value from advice does not match primitive return type for: public abstract float tn.esprit.spring.repository.EmployeRepository.getSalaireByEmployeIdJPQL(int)
+2021- 11-15 19:56:02 tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:142):142 - Dans getSalaireByEmployeIdJPQL() : 
+2021- 11-15 19:56:02 tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:143):143 - Afficher salaire de l'employe 1
+2021- 11-15 19:56:02 tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:151):151 - Erreur dans getSalaireByEmployeIdJPQL org.springframework.aop.AopInvocationException: Null return value from advice does not match primitive return type for: public abstract float tn.esprit.spring.repository.EmployeRepository.getSalaireByEmployeIdJPQL(int)
+2021- 11-15 19:56:46 tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:142):142 - Dans getSalaireByEmployeIdJPQL() : 
+2021- 11-15 19:56:46 tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:143):143 - Afficher salaire de l'employe 1
+2021- 11-15 19:56:46 tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:151):151 - Erreur dans getSalaireByEmployeIdJPQL org.springframework.aop.AopInvocationException: Null return value from advice does not match primitive return type for: public abstract float tn.esprit.spring.repository.EmployeRepository.getSalaireByEmployeIdJPQL(int)
+2021- 11-15 19:57:06 tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:140):140 - Dans getEntrepriseById() : 
+2021- 11-15 19:57:06 tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:141):141 - Get de l'entreprise 1
+2021- 11-15 19:57:06 tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:149):149 - Erreure dans getEntrepriseById java.util.NoSuchElementException: No value present
