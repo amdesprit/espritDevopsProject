@@ -4,10 +4,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import tn.esprit.spring.controller.RestControlEntreprise;
 import tn.esprit.spring.entities.Departement;
 import tn.esprit.spring.entities.Employe;
 import tn.esprit.spring.entities.Mission;
@@ -21,7 +23,8 @@ import tn.esprit.spring.repository.TimesheetRepository;
 
 @Service
 public class TimesheetServiceImpl implements ITimesheetService {
-	
+
+	private static final Logger log = Logger.getLogger(RestControlEntreprise.class);
 
 	@Autowired
 	MissionRepository missionRepository;
@@ -99,7 +102,20 @@ public class TimesheetServiceImpl implements ITimesheetService {
 
 	
 	public List<Employe> getAllEmployeByMission(int missionId) {
-		return timesheetRepository.getAllEmployeByMission(missionId);
+
+		log.info("Dans getAllEmployeByMission() : ");
+		log.debug("Afficher les employés de  " + missionId);
+
+		List<Employe> EmpByMission = null;
+
+		try {
+			EmpByMission = timesheetRepository.getAllEmployeByMission(missionId);
+			log.debug("Affichage terminée");
+			log.info("Sortie de getAllEmployeByMission() sans erreurs");
+		} catch (Exception e) {
+			log.error("Erreur dans getAllEmployeByMission() : " + e);
+		}
+		return EmpByMission;
 	}
 
 }
