@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import tn.esprit.spring.controller.RestControlTimesheet;
 import tn.esprit.spring.entities.Departement;
 import tn.esprit.spring.entities.Employe;
 import tn.esprit.spring.entities.Mission;
@@ -19,11 +20,17 @@ import tn.esprit.spring.repository.EmployeRepository;
 import tn.esprit.spring.repository.MissionRepository;
 import tn.esprit.spring.repository.TimesheetRepository;
 
+
+import org.apache.log4j.Logger;
+
+
 @Service
 public class TimesheetServiceImpl implements ITimesheetService {
 
+
 	private static final Logger log = Logger.getLogger(RestControlTimesheet.class);
 	//private static final Logger tracelog = Logger.getLogger("tracelogs");
+
 
 
 	@Autowired
@@ -34,7 +41,6 @@ public class TimesheetServiceImpl implements ITimesheetService {
 	TimesheetRepository timesheetRepository;
 	@Autowired
 	EmployeRepository employeRepository;
-
 
 	public int ajouterMission(Mission mission) {
 
@@ -59,23 +65,32 @@ public class TimesheetServiceImpl implements ITimesheetService {
 
 	}
 
+
 	public void affecterMissionADepartement(int missionId, int depId) {
-		Optional<Mission> value = missionRepository.findById(missionId);
 
-		if (value.isPresent()){
-			Mission mission = value.get();
-			Optional<Departement> valueDep = deptRepoistory.findById(depId);
+		log.info("Dans affecterMissionADepartement() : ");
+		log.debug("Affectation de la mission " + depId + " a l'entreprise " + missionId);
 
-			if (valueDep.isPresent()){
+		try {
 
-				Departement dep = valueDep.get();
+			Mission mission = missionRepository.findById(missionId).get();
+			Departement dep = deptRepoistory.findById(depId).get();
 
-				mission.setDepartement(dep);
-				missionRepository.save(mission);
-			}
+
+
+
+			mission.setDepartement(dep);
+			missionRepository.save(mission);
+
+			log.debug("Affectation terminée !!!");
+			log.info("Sortie de Dans affecterMissionADepartement sans erreurs");
+		} catch (Exception e) {
+			log.error("Dans  affecterMissionADepartement() : "+ e);
 		}
-	}
 
+
+
+	}
 
 	public void ajouterTimesheet(int missionId, int employeId, Date dateDebut, Date dateFin) {
 
@@ -104,7 +119,7 @@ public class TimesheetServiceImpl implements ITimesheetService {
 
 	}
 
-	
+
 	public void validerTimesheet(int missionId, int employeId, Date dateDebut, Date dateFin, int validateurId) {
 		System.out.println("In valider Timesheet");
 		Employe validateur = employeRepository.findById(validateurId).get();
@@ -130,21 +145,34 @@ public class TimesheetServiceImpl implements ITimesheetService {
 		TimesheetPK timesheetPK = new TimesheetPK(missionId, employeId, dateDebut, dateFin);
 		Timesheet timesheet =timesheetRepository.findBytimesheetPK(timesheetPK);
 		timesheet.setValide(true);
-		
+
 		//Comment Lire une date de la base de données
 		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 		System.out.println("dateDebut : " + dateFormat.format(timesheet.getTimesheetPK().getDateDebut()));
-		
+
 	}
 
-	
+
 	public List<Mission> findAllMissionByEmployeJPQL(int employeId) {
+
+		log.info("Dans findAllMissionByEmployeJPQL() : ");
+		log.debug("Afficher les missions  " + employeId);
+
+
 		return timesheetRepository.findAllMissionByEmployeJPQL(employeId);
+
+
+
 	}
 
-	
+
 	public List<Employe> getAllEmployeByMission(int missionId) {
+		log.info("Dans getAllEmployeByMission() : ");
+		log.debug("Afficher les missions par " + missionId);
+
 		return timesheetRepository.getAllEmployeByMission(missionId);
+
+
 	}
 
 }
