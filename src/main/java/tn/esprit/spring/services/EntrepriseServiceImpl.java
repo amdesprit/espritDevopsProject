@@ -2,6 +2,7 @@ package tn.esprit.spring.services;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,6 @@ import tn.esprit.spring.repository.EntrepriseRepository;
 public class EntrepriseServiceImpl implements IEntrepriseService {
 	
 	private static final Logger log = Logger.getLogger(RestControlEntreprise.class);
-	//private static final Logger tracelog = Logger.getLogger("tracelogs");
 	
 	
 	
@@ -63,17 +63,17 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 	}
 	
 	public void affecterDepartementAEntreprise(int depId, int entrepriseId) {
-		        //Le bout Master de cette relation N:1 est departement  
-				//donc il faut rajouter l'entreprise a departement 
-				// ==> c'est l'objet departement(le master) qui va mettre a jour l'association
-				//Rappel : la classe qui contient mappedBy represente le bout Slave
-				//Rappel : Dans une relation oneToMany le mappedBy doit etre du cote one.
+	
 		
 		    	log.info("Dans affecterDepartementAEntreprise() : ");
 		    	log.debug("Affectation du departement " + depId + " a l'entreprise " + entrepriseId);
 		    	
-				Entreprise entrepriseManagedEntity = entrepriseRepoistory.findById(entrepriseId).get();
-				Departement depManagedEntity = deptRepoistory.findById(depId).get();
+	
+				
+				Entreprise entrepriseManagedEntity = entrepriseRepoistory.findById(entrepriseId).orElse(null);
+				
+				
+				Departement depManagedEntity = deptRepoistory.findById(depId).orElse(null);
 				
 				try {
 					depManagedEntity.setEntreprise(entrepriseManagedEntity);
@@ -94,13 +94,17 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 		
 		List<String> depNames = null;
 		try {
-			Entreprise entrepriseManagedEntity = entrepriseRepoistory.findById(entrepriseId).get();
+			Entreprise entrepriseManagedEntity = entrepriseRepoistory.findById(entrepriseId).orElse(null);
 			depNames = new ArrayList<>();
+			if (entrepriseManagedEntity != null) {
+				
+			
 			for(Departement dep : entrepriseManagedEntity.getDepartements()){
 				depNames.add(dep.getName());
 				
 				log.debug("Getall des departement fait ");
 		    	log.info("Sortie de getAllDepartementsNamesByEntreprise sans erreurs");
+			}
 			}
 		} catch (Exception e) {
 			log.error("Erreur dans getAllDepartementsNamesByEntreprise " + e);
@@ -114,7 +118,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
     	log.debug("Suppression de l'entreprise " + entrepriseId);
     	
 		try {
-			entrepriseRepoistory.delete(entrepriseRepoistory.findById(entrepriseId).get());
+			entrepriseRepoistory.delete(entrepriseRepoistory.findById(entrepriseId).orElse(null));
 			log.debug("Suppression de l'entreprise terminée");
 			log.info("Sortie de deleteEntrepriseById sans erreurs");
 		} catch (Exception e) {
@@ -127,7 +131,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
     	log.debug("Suppression du departement " + depId);
     	
 		try {
-			deptRepoistory.delete(deptRepoistory.findById(depId).get());
+			deptRepoistory.delete(deptRepoistory.findById(depId).orElse(null));
 			log.debug("Suppression du departement terminée");
 	    	log.info("Sortie de deleteDepartementById sans erreurs");
 		} catch (Exception e) {
@@ -142,7 +146,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
     	
     	Entreprise ent = null;
 		try {
-			ent = entrepriseRepoistory.findById(entrepriseId).get();
+			ent = entrepriseRepoistory.findById(entrepriseId).orElse(null);
 			log.debug("Get de l'entreprise fait ");
 			log.info("Sortie de getEntrepriseById sans erreurs");
 		} catch (Exception e) {
@@ -153,7 +157,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 	}
 
     @Override
-    public Entreprise UpdateEntreprise(Entreprise entreprise) {
+    public Entreprise updateEntreprise(Entreprise entreprise) {
     	
     	log.info("Dans UpdateEntreprise() : ");
     	log.debug("Update de l'entreprise ");
