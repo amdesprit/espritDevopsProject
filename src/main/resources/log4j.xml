@@ -45,7 +45,7 @@ MM-dd HH:mm:ss} %l:%L - %m%n" /></layout>
     </root>
   -->
 
-<logger name="tn.esprit.spring.controller.RestControlTimesheet">
+<logger name="tn.esprit.spring.controller.RestControlEntreprise">
 <level value="TRACE" />  
 <appender-ref ref="file" /> 
 <appender-ref ref="console" />

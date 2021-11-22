@@ -78,13 +78,13 @@ public class TimesheetServiceImpl implements ITimesheetService {
 		log.info("Dans ajouterTimesheet() : ");
 		log.debug("Ajouter departement ");
 
+		TimesheetPK timesheetPK = new TimesheetPK();
+		timesheetPK.setDateDebut(dateDebut);
+		timesheetPK.setDateFin(dateFin);
+		timesheetPK.setIdEmploye(employeId);
+		timesheetPK.setIdMission(missionId);
+
 		try {
-			TimesheetPK timesheetPK = new TimesheetPK();
-			timesheetPK.setDateDebut(dateDebut);
-			timesheetPK.setDateFin(dateFin);
-			timesheetPK.setIdEmploye(employeId);
-			timesheetPK.setIdMission(missionId);
-		
 			Timesheet timesheet = new Timesheet();
 			timesheet.setTimesheetPK(timesheetPK);
 			timesheet.setValide(false); //par defaut non valide

@@ -279,3 +279,31 @@
 2021- 11-21 21:56:35 tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:35):35 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
 2021- 11-21 21:56:35 tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Ajout entreprise fait !!!
 2021- 11-21 21:56:35 tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:42):42 - Sortie de ajouterEntreprise sans erreurs
+2021- 11-22 16:01:45 tn.esprit.spring.services.TimesheetServiceImpl.getAllEmployeByMission(TimesheetServiceImpl.java:159):159 - Dans getAllEmployeByMission() : 
+2021- 11-22 16:01:45 tn.esprit.spring.services.TimesheetServiceImpl.getAllEmployeByMission(TimesheetServiceImpl.java:160):160 - Afficher les employés de  1
+2021- 11-22 16:01:45 tn.esprit.spring.services.TimesheetServiceImpl.getAllEmployeByMission(TimesheetServiceImpl.java:166):166 - Affichage terminée
+2021- 11-22 16:01:45 tn.esprit.spring.services.TimesheetServiceImpl.getAllEmployeByMission(TimesheetServiceImpl.java:167):167 - Sortie de getAllEmployeByMission() sans erreurs
+
+2021- 11-22 16:34:44 tn.esprit.spring.services.TimesheetServiceImpl.ajouterMission(TimesheetServiceImpl.java:40):40 - Dans ajouterMission() : 
+2021- 11-22 16:34:44 tn.esprit.spring.services.TimesheetServiceImpl.ajouterMission(TimesheetServiceImpl.java:41):41 - Ajout de la mission tn.esprit.spring.entities.Mission@26672322
+2021- 11-22 16:34:44 tn.esprit.spring.services.TimesheetServiceImpl.ajouterMission(TimesheetServiceImpl.java:46):46 - Ajout mission fait !!!
+2021- 11-22 16:34:44 tn.esprit.spring.services.TimesheetServiceImpl.ajouterMission(TimesheetServiceImpl.java:47):47 - Sortie de ajouterMission sans erreurs
+2021- 11-22 16:36:42 tn.esprit.spring.services.TimesheetServiceImpl.affecterMissionADepartement(TimesheetServiceImpl.java:58):58 - Dans affecterMissionADepartement() : 
+2021- 11-22 16:36:42 tn.esprit.spring.services.TimesheetServiceImpl.affecterMissionADepartement(TimesheetServiceImpl.java:59):59 - Affectation du mission 4 a departement 4
+
+2021- 11-22 16:45:55 tn.esprit.spring.services.TimesheetServiceImpl.ajouterMission(TimesheetServiceImpl.java:40):40 - Dans ajouterMission() : 
+2021- 11-22 16:45:55 tn.esprit.spring.services.TimesheetServiceImpl.ajouterMission(TimesheetServiceImpl.java:41):41 - Ajout de la mission tn.esprit.spring.entities.Mission@8d1c41b
+2021- 11-22 16:45:55 tn.esprit.spring.services.TimesheetServiceImpl.ajouterMission(TimesheetServiceImpl.java:46):46 - Ajout mission fait !!!
+2021- 11-22 16:45:55 tn.esprit.spring.services.TimesheetServiceImpl.ajouterMission(TimesheetServiceImpl.java:47):47 - Sortie de ajouterMission sans erreurs
+2021- 11-22 16:47:55 tn.esprit.spring.services.TimesheetServiceImpl.affecterMissionADepartement(TimesheetServiceImpl.java:58):58 - Dans affecterMissionADepartement() : 
+2021- 11-22 16:47:55 tn.esprit.spring.services.TimesheetServiceImpl.affecterMissionADepartement(TimesheetServiceImpl.java:59):59 - Affectation du mission 1 a departement 1
+2021- 11-22 16:47:55 tn.esprit.spring.services.TimesheetServiceImpl.affecterMissionADepartement(TimesheetServiceImpl.java:68):68 - Affectation terminée !!!
+2021- 11-22 16:47:55 tn.esprit.spring.services.TimesheetServiceImpl.affecterMissionADepartement(TimesheetServiceImpl.java:69):69 - Sortie de affecterMissionADepartement sans erreurs
+2021- 11-22 16:54:27 tn.esprit.spring.services.TimesheetServiceImpl.findAllMissionByEmployeJPQL(TimesheetServiceImpl.java:140):140 - Dans findAllMissionByEmployeJPQL() : 
+2021- 11-22 16:54:27 tn.esprit.spring.services.TimesheetServiceImpl.findAllMissionByEmployeJPQL(TimesheetServiceImpl.java:141):141 - Afficher les missions de  1
+2021- 11-22 16:54:27 tn.esprit.spring.services.TimesheetServiceImpl.findAllMissionByEmployeJPQL(TimesheetServiceImpl.java:147):147 - Affichage terminée
+2021- 11-22 16:54:27 tn.esprit.spring.services.TimesheetServiceImpl.findAllMissionByEmployeJPQL(TimesheetServiceImpl.java:148):148 - Sortie de findAllMissionByEmployeJPQL() sans erreurs
+2021- 11-22 16:54:53 tn.esprit.spring.services.TimesheetServiceImpl.getAllEmployeByMission(TimesheetServiceImpl.java:159):159 - Dans getAllEmployeByMission() : 
+2021- 11-22 16:54:53 tn.esprit.spring.services.TimesheetServiceImpl.getAllEmployeByMission(TimesheetServiceImpl.java:160):160 - Afficher les employés de  1
+2021- 11-22 16:54:53 tn.esprit.spring.services.TimesheetServiceImpl.getAllEmployeByMission(TimesheetServiceImpl.java:166):166 - Affichage terminée
+2021- 11-22 16:54:53 tn.esprit.spring.services.TimesheetServiceImpl.getAllEmployeByMission(TimesheetServiceImpl.java:167):167 - Sortie de getAllEmployeByMission() sans erreurs
