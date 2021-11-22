@@ -29,7 +29,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 	@Autowired
 	DepartementRepository deptRepoistory;
 	
-	public int ajouterEntreprise(Entreprise entreprise) {
+	public Entreprise ajouterEntreprise(Entreprise entreprise) {
 		
 		log.info("Dans ajouterEntreprise() : ");
 		log.debug("Ajout de l'entreprise " + entreprise);
@@ -44,10 +44,10 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 		} catch (Exception e) {
 			log.error("Erreure dans ajouterEntreprise() : " + e);
 		}
-		return entreprise.getId();
+		return entreprise;
 	}
 
-	public int ajouterDepartement(Departement dep) {
+	public Departement ajouterDepartement(Departement dep) {
 		
     	log.info("Dans AjouterDepartement() : ");
     	log.debug("Ajouter departement " + dep);
@@ -59,7 +59,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 		} catch (Exception e) {
 			log.error("Erreur dans AjouterDepartement " + e);
 		}
-		return dep.getId();
+		return dep;
 	}
 	
 	public void affecterDepartementAEntreprise(int depId, int entrepriseId) {
@@ -151,6 +151,41 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
     	
 		return ent;
 	}
+
+    @Override
+    public Entreprise UpdateEntreprise(Entreprise entreprise) {
+    	
+    	log.info("Dans UpdateEntreprise() : ");
+    	log.debug("Update de l'entreprise ");
+   
+            try {
+				entrepriseRepoistory.save(entreprise);
+				log.debug("Update de l'entreprise fait ");
+				log.info("Sortie de UpdateEntreprise sans erreurs");
+			} catch (Exception e) {
+				log.error("Erreure dans UpdateEntreprise " + e);
+
+			}
+            return entreprise;                       
+    }
+
+    @Override
+    public List<Entreprise> getallEntreprises() {
+    	
+    	log.info("Dans getallEntreprises() : ");
+    	log.debug("Get de tous les entreprises ");
+            List<Entreprise> entreprises = null;
+			try {
+				entreprises = (List<Entreprise>)entrepriseRepoistory.findAll();
+				log.debug("Get de tous les entreprises fait ");
+				log.info("Sortie de getallEntreprises sans erreurs");
+			} catch (Exception e) {
+				log.error("Erreure dans getallEntreprises " + e);
+
+			}
+            return entreprises;
+    }
+
 
 	
 
