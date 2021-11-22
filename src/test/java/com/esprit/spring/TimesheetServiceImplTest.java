@@ -1,6 +1,8 @@
-@RunWith(SpringRunner.class)
-@SpringBootTest
+@SpringBootTest(classes={com.esprit.spring.TimesheetSpringBootCoreDataJpaMvcRestApplicationTests.class})
+SpringBootTest
 public class TimesheetServiceImplTest {
+
+    /*
 
     private static final Logger logger = LogManager.getLogger(EntrepriseServiceImpl.class);
 
@@ -53,6 +55,6 @@ public class TimesheetServiceImplTest {
 
 
 
-
+  */
 
 }
