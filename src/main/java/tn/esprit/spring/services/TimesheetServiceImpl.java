@@ -21,7 +21,10 @@ import tn.esprit.spring.repository.TimesheetRepository;
 
 @Service
 public class TimesheetServiceImpl implements ITimesheetService {
-	
+
+	private static final Logger log = Logger.getLogger(RestControlTimesheet.class);
+	//private static final Logger tracelog = Logger.getLogger("tracelogs");
+
 
 	@Autowired
 	MissionRepository missionRepository;
@@ -31,32 +34,74 @@ public class TimesheetServiceImpl implements ITimesheetService {
 	TimesheetRepository timesheetRepository;
 	@Autowired
 	EmployeRepository employeRepository;
-	
+
+
 	public int ajouterMission(Mission mission) {
-		missionRepository.save(mission);
+
+		log.info("Dans ajouterMission() : ");
+		log.debug("Ajout de la mission " + mission);
+
+
+		try{
+
+			log.debug("Ajout mission fait !!!");
+			log.info("Sortie de ajouterMission sans erreurs");
+
+
+			missionRepository.save(mission);
+
+		}catch(Exception e){ log.error("Erreure dans ajouterMission() : " + e);  }
+
+
 		return mission.getId();
-	}
-    
-	public void affecterMissionADepartement(int missionId, int depId) {
-		Mission mission = missionRepository.findById(missionId).get();
-		Departement dep = deptRepoistory.findById(depId).get();
-		mission.setDepartement(dep);
-		missionRepository.save(mission);
-		
+
+
+
 	}
 
+	public void affecterMissionADepartement(int missionId, int depId) {
+		Optional<Mission> value = missionRepository.findById(missionId);
+
+		if (value.isPresent()){
+			Mission mission = value.get();
+			Optional<Departement> valueDep = deptRepoistory.findById(depId);
+
+			if (valueDep.isPresent()){
+
+				Departement dep = valueDep.get();
+
+				mission.setDepartement(dep);
+				missionRepository.save(mission);
+			}
+		}
+	}
+
+
 	public void ajouterTimesheet(int missionId, int employeId, Date dateDebut, Date dateFin) {
-		TimesheetPK timesheetPK = new TimesheetPK();
-		timesheetPK.setDateDebut(dateDebut);
-		timesheetPK.setDateFin(dateFin);
-		timesheetPK.setIdEmploye(employeId);
-		timesheetPK.setIdMission(missionId);
-		
-		Timesheet timesheet = new Timesheet();
-		timesheet.setTimesheetPK(timesheetPK);
-		timesheet.setValide(false); //par defaut non valide
-		timesheetRepository.save(timesheet);
-		
+
+
+
+		log.info("Dans ajouterTimesheet() : ");
+		log.debug("AjoutMission " + missionId + " a l employe " + employeId);
+
+		try{
+
+			TimesheetPK timesheetPK = new TimesheetPK();
+			timesheetPK.setDateDebut(dateDebut);
+			timesheetPK.setDateFin(dateFin);
+			timesheetPK.setIdEmploye(employeId);
+			timesheetPK.setIdMission(missionId);
+
+			Timesheet timesheet = new Timesheet();
+			timesheet.setTimesheetPK(timesheetPK);
+			timesheet.setValide(false); //par defaut non valide
+			timesheetRepository.save(timesheet);
+
+			log.debug("Ajout terminée !!!");
+			log.info("Sortie de Dans ajouterTimesheet() sans erreurs");
+
+		}catch(Exception e){log.error("Dans  ajouterTimesheet() : "+ e);}
+
 	}
 
 	
