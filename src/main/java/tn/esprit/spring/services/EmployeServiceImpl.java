@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import tn.esprit.spring.controller.RestControlEntreprise;
+import tn.esprit.spring.controller.RestControlEmploye;
 import tn.esprit.spring.entities.Contrat;
 import tn.esprit.spring.entities.Departement;
 import tn.esprit.spring.entities.Employe;
@@ -24,7 +24,7 @@ import tn.esprit.spring.repository.TimesheetRepository;
 @Service
 public class EmployeServiceImpl implements IEmployeService {
 	
-	private static final Logger log = Logger.getLogger(RestControlEntreprise.class);
+	private static final Logger log = Logger.getLogger(RestControlEmploye.class);
 
 
 	@Autowired
@@ -37,8 +37,21 @@ public class EmployeServiceImpl implements IEmployeService {
 	TimesheetRepository timesheetRepository;
 
 	public int ajouterEmploye(Employe employe) {
-		employeRepository.save(employe);
+		log.info("Dans ajouterEmploye() : ");
+		log.debug("Ajout de l'emplyé " + employe);
+		
+		try {
+			employeRepository.save(employe);
+			
+			log.debug("Ajout Employé fait !!!");
+			log.info("Sortie de ajouterEmployé sans erreurs");
+			
+		} catch (Exception e) {
+			log.error("Erreure dans ajouterEmploye() : " + e);
+		}
+
 		return employe.getId();
+		
 	}
 
 	
@@ -50,16 +63,35 @@ public class EmployeServiceImpl implements IEmployeService {
 	}
 	
 	public void affecterEmployeADepartement(int employeId, int depId) {
+		
+		log.info("Dans affecterEmployeADepartement() : ");
+    	log.debug("Affectation du Departement " + depId + " a l'Employe " + employeId);
+		
+		
 		Departement depManagedEntity = deptRepoistory.findById(depId).get();
 		Employe employeManagedEntity = employeRepository.findById(employeId).get();
 
 		if(depManagedEntity.getEmployes() == null){
 			List<Employe> employes = new ArrayList<>();
-			employes.add(employeManagedEntity);
-			depManagedEntity.setEmployes(employes);
+			try {
+				employes.add(employeManagedEntity);
+				depManagedEntity.setEmployes(employes);
+				log.debug("Affectation terminée !!!");  
+				log.info("Sortie de affecterEmployeADepartement sans erreurs");
+				
+			} catch (Exception e) {
+				log.error("Dans affecterEmployeADepartement() : "+ e);
+			}
+			
 		}else{
 
-			depManagedEntity.getEmployes().add(employeManagedEntity);
+			try {
+				depManagedEntity.getEmployes().add(employeManagedEntity);
+				
+			}catch(Exception exp){
+				log.error("Dans affecterEmployeADepartement() : "+ exp);
+			}
+			
 
 		}
 
@@ -139,7 +171,7 @@ public class EmployeServiceImpl implements IEmployeService {
 	
 	public float getSalaireByEmployeIdJPQL(int employeId) {
 		
-    	log.info("Dans getSalaireByEmployeIdJPQL() : ");
+		log.info("Dans getSalaireByEmployeIdJPQL() : ");
     	log.debug("Afficher salaire de l'employe " + employeId);
 		
 		float salaire = 0;
