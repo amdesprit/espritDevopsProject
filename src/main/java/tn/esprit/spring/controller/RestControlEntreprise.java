@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import tn.esprit.spring.entities.Departement;
+import tn.esprit.spring.entities.DepartementModel;
 import tn.esprit.spring.entities.Entreprise;
+import tn.esprit.spring.entities.EntrepriseModel;
 import tn.esprit.spring.services.IEmployeService;
 import tn.esprit.spring.services.IEntrepriseService;
 import tn.esprit.spring.services.ITimesheetService;
@@ -32,9 +34,11 @@ public class RestControlEntreprise {
 
 	@PostMapping("/ajouterEntreprise")
 	@ResponseBody
-	public int ajouterEntreprise(@RequestBody Entreprise ent) {
-		ientrepriseservice.ajouterEntreprise(ent);
-		return ent.getId();
+	public int ajouterEntreprise(@RequestBody EntrepriseModel ent) {
+		Entreprise entreprise = new Entreprise(ent);
+		
+		ientrepriseservice.ajouterEntreprise(entreprise);
+		return entreprise.getId();
 	}
 	
     @PutMapping(value = "/affecterDepartementAEntreprise/{iddept}/{identreprise}") 
@@ -65,8 +69,10 @@ public class RestControlEntreprise {
     
  	@PostMapping("/ajouterDepartement")
  	@ResponseBody
-	public Departement ajouterDepartement(@RequestBody Departement dep) {
-		return ientrepriseservice.ajouterDepartement(dep);
+	public Departement ajouterDepartement(@RequestBody DepartementModel dep) {
+ 		Departement departement = new Departement(dep);
+ 		
+		return ientrepriseservice.ajouterDepartement(departement);
 	}
 	
     @GetMapping(value = "getAllDepartementsNamesByEntreprise/{identreprise}")

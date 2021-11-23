@@ -43,6 +43,10 @@ public class Departement implements Serializable {
 		this.name = name;
 	}
 	
+	public Departement(DepartementModel dep) {
+		this.name = dep.getName();
+	}
+
 	public int getId() {
 		return id;
 	}

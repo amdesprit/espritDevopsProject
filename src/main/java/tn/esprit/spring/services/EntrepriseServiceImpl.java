@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-import tn.esprit.spring.controller.RestControlEntreprise;
 import tn.esprit.spring.entities.Departement;
 
 import tn.esprit.spring.entities.Entreprise;
@@ -19,7 +18,7 @@ import tn.esprit.spring.repository.EntrepriseRepository;
 @Service
 public class EntrepriseServiceImpl implements IEntrepriseService {
 	
-	private static final Logger log = Logger.getLogger(RestControlEntreprise.class);
+	private static final Logger log = Logger.getLogger(EntrepriseServiceImpl.class);
 	
 	
 	
@@ -73,11 +72,17 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 				Entreprise entrepriseManagedEntity = entrepriseRepoistory.findById(entrepriseId).orElse(null);
 				
 				
-				Departement depManagedEntity = deptRepoistory.findById(depId).orElse(null);
+
+				
 				
 				try {
-					depManagedEntity.setEntreprise(entrepriseManagedEntity);
-					deptRepoistory.save(depManagedEntity);
+					Optional<Departement> depManagedEntity = deptRepoistory.findById(depId);
+					if (depManagedEntity.isPresent()) {
+						Departement depManaged = depManagedEntity.get();
+						depManaged.setEntreprise(entrepriseManagedEntity);
+						deptRepoistory.save(depManaged);
+					} 
+
 					
 					log.debug("Affectation terminée !!!");  
 					log.info("Sortie de affecterDepartementAEntreprise sans erreurs");
@@ -118,9 +123,14 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
     	log.debug("Suppression de l'entreprise " + entrepriseId);
     	
 		try {
-			entrepriseRepoistory.delete(entrepriseRepoistory.findById(entrepriseId).orElse(null));
+			Entreprise ent = entrepriseRepoistory.findById(entrepriseId).orElse(null);
+			if (ent != null) {
+				
+			
+			entrepriseRepoistory.delete(ent);
 			log.debug("Suppression de l'entreprise terminée");
 			log.info("Sortie de deleteEntrepriseById sans erreurs");
+			}
 		} catch (Exception e) {
 			log.error("Erreur dans deleteEntrepriseById() : " + e);
 		}	
@@ -131,9 +141,13 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
     	log.debug("Suppression du departement " + depId);
     	
 		try {
-			deptRepoistory.delete(deptRepoistory.findById(depId).orElse(null));
+			Departement dep = deptRepoistory.findById(depId).orElse(null);
+			if (dep != null) {
+				
+			deptRepoistory.delete(dep);
 			log.debug("Suppression du departement terminée");
 	    	log.info("Sortie de deleteDepartementById sans erreurs");
+			}
 		} catch (Exception e) {
 			log.error("Erreure dans deleteDepartementById " + e);
 		}	

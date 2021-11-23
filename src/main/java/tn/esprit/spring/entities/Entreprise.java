@@ -51,6 +51,11 @@ public class Entreprise implements Serializable{
         this.raisonSocial = raisonSocial;
 }
 
+	public Entreprise(EntrepriseModel ent) {
+		this.name=ent.getName();
+		this.raisonSocial=ent.getRaisonSocial();
+	}
+
 	@Override                                                                                                                                                                                                  
 	public String toString() {
 	        return "Entreprise [id=" + id + ", name=" + name + ", raisonSocial=" + raisonSocial + "]";
