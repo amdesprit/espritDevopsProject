@@ -20,16 +20,21 @@ import tn.esprit.spring.entities.Entreprise;
 @SpringBootTest
  class EntrepriseServiceImplTest {
         @Autowired
-        IEntrepriseService ES; 
+        IEntrepriseService ESer; 
            
            
         		@Test
         		void ajouterEntreprise() throws ParseException {
         	
 	                Entreprise entreprise=new Entreprise("testent","testraisonSocial");
-	                Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
-                    List<Entreprise> listentreprises=ES.getallEntreprises();
-                    assertEquals(3,listentreprises.size());
+	                Entreprise addedEntreprise = ESer.ajouterEntreprise(entreprise);
+                    assertEquals(entreprise.getName(),addedEntreprise.getName());
+                    //or
+                    //Entreprise entreprise=new Entreprise("testent","testraisonSocial");
+	                //ES.ajouterEntreprise(entreprise);
+                    //List<Entreprise> listentreprises=ES.getallEntreprises();
+                    //assertEquals(3,listentreprises.size());
+
 
 	               
         		}
@@ -38,32 +43,29 @@ import tn.esprit.spring.entities.Entreprise;
         		void ajouterDepartement() throws ParseException {
         	
 	                Departement departement=new Departement("testdep");
-	                Departement addedDep = ES.ajouterDepartement(departement);
+	                Departement addedDep = ESer.ajouterDepartement(departement);
 	                assertEquals(departement.getName(),addedDep.getName());
 	               
         		}
             
-           
-                //ES.ajouterEntreprise(new Entreprise("test1","raisonSocial"));}
-				
+           				
         		 @Test   
 		         void updateEntreprise() throws ParseException {
 	
 			         Entreprise entreprise=new Entreprise(3,"TestUpdate","Updatent");
-			         Entreprise entrepriseUpdated=ES.updateEntreprise(entreprise);
+			         Entreprise entrepriseUpdated=ESer.updateEntreprise(entreprise);
 			         assertEquals(entreprise.getName(),entrepriseUpdated.getName());
 		         
 		         }
            
-                //ES.UpdateEntreprise(new Entreprise(12,"TestUpdate","Update"));}
            
                 @Test
                 void getallEntreprises() throws ParseException {
                 	
 	                Entreprise entreprise=new Entreprise("testent","testraisonSocial");
-	                Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
-                		
-                    List<Entreprise> listentreprises=ES.getallEntreprises();
+	                //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
+	                ESer.ajouterEntreprise(entreprise);	
+                    List<Entreprise> listentreprises=ESer.getallEntreprises();
                     assertEquals(1,listentreprises.size());
                     
                 }
@@ -73,29 +75,29 @@ import tn.esprit.spring.entities.Entreprise;
                 
                 void getEntrepriseById() throws ParseException {
 			         Entreprise entreprise=new Entreprise(3,"Testent","ent");
-		             Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
-
-               		 Entreprise ent = ES.getEntrepriseById(entreprise.getId());
+		             //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
+			         ESer.ajouterEntreprise(entreprise);
+               		 Entreprise ent = ESer.getEntrepriseById(entreprise.getId());
                		 assertEquals(entreprise.getName(),ent.getName());
                        }
                        
 
               
-       /*       
+      /*       
                 @Test
                 public void affecterDepartementAEntreprise() throws ParseException {
 	                Entreprise entreprise=new Entreprise(9,"testent","testraisonSocial");
-	                Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
+	                Entreprise addedEntreprise = ESer.ajouterEntreprise(entreprise);
 	                Departement departement=new Departement("testdep");
-	                Departement addedDep = ES.ajouterDepartement(departement);
+	                Departement addedDep = ESer.ajouterDepartement(departement);
 	                
-            	   	ES.affecterDepartementAEntreprise(addedDep.getId(),entreprise.getId());
-            	   	List<String> listeNames=ES.getAllDepartementsNamesByEntreprise(addedEntreprise.getId());
+            	   	ESer.affecterDepartementAEntreprise(addedDep.getId(),entreprise.getId());
+            	   	List<String> listeNames=ESer.getAllDepartementsNamesByEntreprise(addedEntreprise.getId());
               		assertEquals(listeNames.get(0),addedDep.getName());
 
                }
               
-              
+       /*       es       
                @Test
                 public void getAllDepartementsNamesByEntreprise() throws ParseException {
 	                Entreprise entreprise=new Entreprise(7,"testent","testraisonSocial");
@@ -109,22 +111,18 @@ import tn.esprit.spring.entities.Entreprise;
                        }
          */      
                
-//             @Test
-//             public void testdeleteAll() throws ParseException {
-//                    ES.deleteAll();
-//                    List<Entreprise> listentreprises=ES.getallEntreprises();
-//                            assertEquals(0,listentreprises.size());}
-//            
                @Test
              
                 void deleteEntrepriseById() throws ParseException {
 	                Entreprise entreprise=new Entreprise(1,"testent","testraisonSocial");
-	                Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
-               		
-	                ES.deleteEntrepriseById(1);
-	                List<Entreprise> listentreprises=ES.getallEntreprises();
+	                //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
+	                ESer.ajouterEntreprise(entreprise);
+	                List<Entreprise> listentreprisebefore=ESer.getallEntreprises();
+	                int after = listentreprisebefore.size() - 1;
+	                ESer.deleteEntrepriseById(1);
+	                List<Entreprise> listentreprisesafter=ESer.getallEntreprises();
 	
-	                assertEquals(1,listentreprises.size());
+	                assertEquals(after,listentreprisesafter.size());
 
                       }
                
