@@ -7,7 +7,6 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import tn.esprit.spring.controller.RestControlEntreprise;
 import tn.esprit.spring.entities.Departement;
@@ -73,26 +72,27 @@ public class TimesheetServiceImpl implements ITimesheetService {
 
 	}
 
-	public void ajouterTimesheet(int missionId, int employeId, Date dateDebut, Date dateFin) {
-
+	public boolean ajouterTimesheet(int missionId, int employeId, Date dateDebut, Date dateFin) {
 		log.info("Dans ajouterTimesheet() : ");
-		log.debug("Ajouter departement ");
-
+		log.debug("Ajouter Timesheet ");
+		boolean isCreated = false;
 		TimesheetPK timesheetPK = new TimesheetPK();
 		timesheetPK.setDateDebut(dateDebut);
 		timesheetPK.setDateFin(dateFin);
 		timesheetPK.setIdEmploye(employeId);
 		timesheetPK.setIdMission(missionId);
-
+		Timesheet timesheet = new Timesheet();
+		timesheet.setTimesheetPK(timesheetPK);
+		timesheet.setValide(false); //par defaut non valide
 		try {
-			Timesheet timesheet = new Timesheet();
-			timesheet.setTimesheetPK(timesheetPK);
-			timesheet.setValide(false); //par defaut non valide
 			timesheetRepository.save(timesheet);
+			isCreated = true;
+			log.debug("Ajout Timesheet fait !!!");
+			log.info("Sortie de ajouterTimesheet sans erreurs");
 		} catch (Exception e) {
 			log.error("Dans ajouterTimesheet() : "+ e);
 		}
-		
+		return isCreated;
 	}
 
 	
