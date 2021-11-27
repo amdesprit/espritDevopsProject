@@ -3,7 +3,7 @@ pipeline {
 
 environment {
 registry = "ahmedesprit/timesheet"
-registryCredential = 'dockerHub'
+registryCredential = 'docker_hub'
 dockerImage = ''
             }
 
@@ -48,8 +48,7 @@ sh "mvn clean package deploy:deploy-file -DgroupId=com.esprit.spring -DartifactI
 stage('Building our image') {
 steps {
 script {
-dockerImage = registry + ":$BUILD_NUMBER"
-sh "docker build -t ${dockerImage} ."
+dockerImage = docker.build registry + ":$BUILD_NUMBER"
 }
 }
 }
@@ -58,7 +57,8 @@ stage('Deploy our image') {
 steps {
 script {
 docker.withRegistry( '', registryCredential ) {
-dockerImage.push()
+dockerImage.push()    
+
 }
 }
 }
