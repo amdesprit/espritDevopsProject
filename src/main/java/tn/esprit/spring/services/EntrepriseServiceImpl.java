@@ -61,7 +61,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 		return dep;
 	}
 	
-	public void affecterDepartementAEntreprise(int depId, int entrepriseId) {
+	public boolean affecterDepartementAEntreprise(int depId, int entrepriseId) {
 	
 		
 		    	log.info("Dans affecterDepartementAEntreprise() : ");
@@ -69,27 +69,29 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 		    	
 	
 				
-				Entreprise entrepriseManagedEntity = entrepriseRepoistory.findById(entrepriseId).orElse(null);
 				
 				
 
-				
-				
+				boolean response = false;
+
 				try {
+					Entreprise entrepriseManagedEntity = entrepriseRepoistory.findById(entrepriseId).orElse(null);
 					Optional<Departement> depManagedEntity = deptRepoistory.findById(depId);
 					if (depManagedEntity.isPresent()) {
 						Departement depManaged = depManagedEntity.get();
 						depManaged.setEntreprise(entrepriseManagedEntity);
 						deptRepoistory.save(depManaged);
+						response = true;
+
 					} 
 
 					
 					log.debug("Affectation terminée !!!");  
-					log.info("Sortie de affecterDepartementAEntreprise sans erreurs");
+					log.info("Sortie de affecterDepartementAEntreprise sans erreurs " + response);
 				} catch (Exception e) {
 					log.error("Dans affecterDepartementAEntreprise() : "+ e);
 				}
-		
+		return response;
 	}
 	
 	public List<String> getAllDepartementsNamesByEntreprise(int entrepriseId) {
@@ -118,9 +120,11 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 		return depNames;
 	}
 
-	public void deleteEntrepriseById(int entrepriseId) {
+	public boolean deleteEntrepriseById(int entrepriseId) {
     	log.info("Dans deleteEntrepriseById() : ");
     	log.debug("Suppression de l'entreprise " + entrepriseId);
+    	
+    	boolean response = false;
     	
 		try {
 			Entreprise ent = entrepriseRepoistory.findById(entrepriseId).orElse(null);
@@ -128,29 +132,39 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 				
 			
 			entrepriseRepoistory.delete(ent);
+			
+			response = true;
 			log.debug("Suppression de l'entreprise terminée");
-			log.info("Sortie de deleteEntrepriseById sans erreurs");
+			log.info("Sortie de deleteEntrepriseById sans erreurs "+ response );
 			}
 		} catch (Exception e) {
 			log.error("Erreur dans deleteEntrepriseById() : " + e);
 		}	
+		
+		return response;
 	}
 
-	public void deleteDepartementById(int depId) {
+	public boolean deleteDepartementById(int depId) {
     	log.info("Dans deleteDepartementById() : ");
     	log.debug("Suppression du departement " + depId);
+    	
+    	boolean response = false;
     	
 		try {
 			Departement dep = deptRepoistory.findById(depId).orElse(null);
 			if (dep != null) {
 				
 			deptRepoistory.delete(dep);
+			
+			response = true;
 			log.debug("Suppression du departement terminée");
 	    	log.info("Sortie de deleteDepartementById sans erreurs");
 			}
 		} catch (Exception e) {
 			log.error("Erreure dans deleteDepartementById " + e);
-		}	
+		}
+		
+		return response;
 	}
 
 
