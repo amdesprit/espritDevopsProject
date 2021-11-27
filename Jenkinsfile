@@ -14,8 +14,7 @@ stages {
 stage('Cloning Project from Git') {
 steps {
      
-    git clone 'https://github.com/amdesprit/espritDevopsProject'
-    git checkout develop
+    git clone 'https://github.com/amdesprit/espritDevopsProject' 
 
     }}
 
