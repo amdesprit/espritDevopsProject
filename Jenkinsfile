@@ -4,7 +4,7 @@ pipeline {
 environment {
 registry = "ahmedesprit/timesheet"
 registryCredential = 'docker_hub'
-dockerImage = 'ahmedesprit/timesheet'
+dockerImage = ''
             }
 
 
