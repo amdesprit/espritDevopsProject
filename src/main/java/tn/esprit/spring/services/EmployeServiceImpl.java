@@ -168,11 +168,7 @@ public class EmployeServiceImpl implements IEmployeService {
     public void deleteAllContratJPQL() {
         log.info("** start  deleteAllContactJPQL : ");
         try {
-            List<String> old_employee = employeRepository.employeNames();
-            log.debug(" -- N° 1 : the old Number of employee :" +old_employee.size() );
             employeRepository.deleteAllContratJPQL();
-            List<String> new_employee = employeRepository.employeNames();
-            log.debug(" -- N° 2 : the new employee list count :" +new_employee );
             log.info("** end  deleteAllContactJPQL without error");
         }catch(Exception e ){
             log.error("** end  deleteAllContactJPQL with error "+e);
