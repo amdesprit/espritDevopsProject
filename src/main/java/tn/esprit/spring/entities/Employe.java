@@ -52,8 +52,8 @@ public class Employe implements Serializable {
 	@JsonIgnore
 	@OneToMany(mappedBy="employe")
 	private List<Timesheet> timesheets;
-	
-	
+
+
 	public Employe() {
 		super();
 	}
@@ -73,6 +73,16 @@ public class Employe implements Serializable {
 		this.email = email;
 		this.isActif = isActif;
 		this.role = role;
+	}
+
+	public Employe(EmployeModel employeModel)
+	{
+		this.id = employeModel.getId();
+		this.prenom = employeModel.getPrenom();
+		this.nom = employeModel.getNom();
+		this.email = employeModel.getEmail();
+		this.isActif = employeModel.isActif();
+		this.role = employeModel.getRole();
 	}
 
 	public int getId() {

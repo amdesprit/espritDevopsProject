@@ -13,11 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import tn.esprit.spring.entities.Contrat;
-import tn.esprit.spring.entities.Employe;
-import tn.esprit.spring.entities.Entreprise;
-import tn.esprit.spring.entities.Mission;
-import tn.esprit.spring.entities.Timesheet;
+import tn.esprit.spring.entities.*;
 import tn.esprit.spring.services.IEmployeService;
 import tn.esprit.spring.services.IEntrepriseService;
 import tn.esprit.spring.services.ITimesheetService;
@@ -36,10 +32,11 @@ public class RestControlEmploye {
 	// http://localhost:8081/SpringMVC/servlet/ajouterEmployer
 	/*INES*/
 	@PostMapping("/ajouterEmployer")
-	public Employe ajouterEmploye(@RequestBody Employe employe)
+	public Employe ajouterEmploye(@RequestBody EmployeModel employe)
 	{
-		iemployeservice.ajouterEmploye(employe);
-		return employe;
+		Employe employee = new Employe(employe);
+		iemployeservice.ajouterEmploye(employee);
+		return employee;
 	}
 	
 	// Modifier email : http://localhost:8081/SpringMVC/servlet/modifyEmail/1/newemail
@@ -63,9 +60,10 @@ public class RestControlEmploye {
 
 	// http://localhost:8081/SpringMVC/servlet/ajouterContrat
 	@PostMapping("/ajouterContrat")
-	public int ajouterContrat(@RequestBody Contrat contrat) {
-		iemployeservice.ajouterContrat(contrat);
-		return contrat.getReference();
+	public int ajouterContrat(@RequestBody ContratModel contrat) {
+		Contrat c = new Contrat(contrat);
+		iemployeservice.ajouterContrat(c);
+		return c.getReference();
 	}
 	
 	// http://localhost:8081/SpringMVC/servlet/affecterContratAEmploye/6/1
