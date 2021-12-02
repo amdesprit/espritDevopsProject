@@ -1,5 +1,7 @@
 package tn.esprit.spring.entities;
 
+import java.util.List;
+
 public class EmployeModel {
 
 	private int id;
@@ -8,16 +10,11 @@ public class EmployeModel {
 	private String email;
 	private boolean isActif;
 	private Role role;
+	private List<Departement> departements;
+	private Contrat contrat;
+	private List<Timesheet> timesheets;
 
 	public EmployeModel() {
-	}
-
-	public EmployeModel(String prenom, String nom, String email, boolean isActif, Role role) {
-		this.prenom = prenom;
-		this.nom = nom;
-		this.email = email;
-		this.isActif = isActif;
-		this.role = role;
 	}
 
 	public int getId() {
@@ -66,5 +63,29 @@ public class EmployeModel {
 
 	public void setRole(Role role) {
 		this.role = role;
+	}
+
+	public List<Departement> getDepartements() {
+		return departements;
+	}
+
+	public void setDepartements(List<Departement> departements) {
+		this.departements = departements;
+	}
+
+	public Contrat getContrat() {
+		return contrat;
+	}
+
+	public void setContrat(Contrat contrat) {
+		this.contrat = contrat;
+	}
+
+	public List<Timesheet> getTimesheets() {
+		return timesheets;
+	}
+
+	public void setTimesheets(List<Timesheet> timesheets) {
+		this.timesheets = timesheets;
 	}
 }
