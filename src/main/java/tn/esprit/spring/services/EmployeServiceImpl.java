@@ -5,10 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import tn.esprit.spring.entities.*;
-import tn.esprit.spring.repository.ContratRepository;
-import tn.esprit.spring.repository.DepartementRepository;
-import tn.esprit.spring.repository.EmployeRepository;
-import tn.esprit.spring.repository.TimesheetRepository;
+import tn.esprit.spring.repository.*;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -20,16 +17,20 @@ public class EmployeServiceImpl implements IEmployeService {
 
     private static final Logger log = Logger.getLogger(IEmployeService.class);
 
+    EmployeRepository employeRepository;
+    DepartementRepository deptRepoistory;
+    ContratRepository contratRepoistory;
+    TimesheetRepository timesheetRepository;
 
     @Autowired
-    EmployeRepository employeRepository;
-    @Autowired
-    DepartementRepository deptRepoistory;
-    @Autowired
-    ContratRepository contratRepoistory;
-    @Autowired
-    TimesheetRepository timesheetRepository;
-	/* INES */
+    public EmployeServiceImpl(EmployeRepository employeRepository, DepartementRepository deptRepoistory, ContratRepository contratRepoistory, TimesheetRepository timesheetRepository) {
+        this.employeRepository = employeRepository;
+        this.deptRepoistory = deptRepoistory;
+        this.contratRepoistory = contratRepoistory;
+        this.timesheetRepository = timesheetRepository;
+    }
+
+    /* INES */
     public int ajouterEmploye(Employe employe) {
         employeRepository.save(employe);
         return employe.getId();

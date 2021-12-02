@@ -9,9 +9,11 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.junit4.SpringRunner;
 import tn.esprit.spring.entities.*;
 import tn.esprit.spring.repository.ContratRepository;
+import tn.esprit.spring.repository.MissionRepository;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -19,18 +21,25 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
+@ComponentScan(basePackageClasses = {EmployeServiceImpl.class,ContratRepository.class,MissionRepository.class})
 public class EmployeServiceImplTest {
     private static final Logger log = Logger.getLogger(EmployeServiceImplTest.class);
 
-    @Autowired
     EmployeServiceImpl employeeService;
+    ContratRepository contractRepository;
+    MissionRepository missionRepository;
 
     @Autowired
-    ContratRepository contractRepository;
+    public EmployeServiceImplTest(EmployeServiceImpl employeeService, ContratRepository contractRepository, MissionRepository missionRepository) {
+        this.employeeService = employeeService;
+        this.contractRepository = contractRepository;
+        this.missionRepository = missionRepository;
+    }
 
     private Employe employee_1, employee_2, employee_3;
     private List<Employe> employeesList;
@@ -42,7 +51,7 @@ public class EmployeServiceImplTest {
     public void init() throws ParseException {
         employeesList = new ArrayList<>();
         employee_1 = new Employe(1, "Khaled", "Kallel", "Khaled.kallel@ssiiconsulting.tn", true, Role.INGENIEUR);
-        employee_2 = new Employe(2, "Khaled", "ben", "Khaled.ben@ssiiconsulting.tn", true, Role.INGENIEUR);
+        employee_2 = new Employe(2, "Khaled", "ben", "updatedmail@mail.com", true, Role.INGENIEUR);
         employee_3 = new Employe(3, "monji", "slim", "monji@ssiiconsulting.tn", true, Role.CHEF_DEPARTEMENT);
         employeesList.add(employee_1);
         employeesList.add(employee_2);
@@ -69,6 +78,10 @@ public class EmployeServiceImplTest {
 
         department_1 = new Departement(28, "Mobile", employeesList, entreprise);
         entreprise.addDepartement(department_1);
+
+        Mission mission = new Mission("mission_1","mission description ...");
+        mission.setDepartement(department_1);
+        missionRepository.save(mission);
     }
 
     /*  DONIA TEST  */
@@ -106,10 +119,6 @@ public class EmployeServiceImplTest {
 
     @Test
     public void deleteAllContratJPQL() {
-//        contract_1.setEmploye(employeeService.getAllEmployes().get(0));
-//        contract_2.setEmploye(employeeService.getAllEmployes().get(1));
-//        employeeService.ajouterContrat(contract_1);
-//        employeeService.ajouterContrat(contract_2);
         employeeService.deleteAllContratJPQL();
         long count = contractRepository.count();
         Assert.assertEquals("deleteAllContractJPQL... ",0,count);
@@ -117,14 +126,6 @@ public class EmployeServiceImplTest {
 
     @Test
     public void getSalaireByEmployeIdJPQL() {
-//        contract_1.setEmploye(employeeService.getAllEmployes().get(0));
-//        contract_2.setEmploye(employeeService.getAllEmployes().get(1));
-//        contract_3.setEmploye(employeeService.getAllEmployes().get(2));
-//
-//        employeeService.ajouterContrat(contract_1);
-//        employeeService.ajouterContrat(contract_2);
-//        employeeService.ajouterContrat(contract_3);
-
         double salary = employeeService.getSalaireByEmployeIdJPQL(2);
         MatcherAssert.assertThat("getSalaireByEmployeIdJPQL... ",salary,Matchers.equalTo(2500.0));
     }
@@ -136,7 +137,9 @@ public class EmployeServiceImplTest {
 
     @Test
     public void getAllEmployes() {
-
+        List<String> employees = employeeService.getAllEmployes().stream().map(employe -> employe.getEmail()).collect(Collectors.toList());
+        List<String> static_email = Arrays.asList(employee_1.getEmail(), employee_2.getEmail(), employee_3.getEmail());
+        MatcherAssert.assertThat(static_email, Matchers.equalToObject(employees));
     }
 
     @Test
