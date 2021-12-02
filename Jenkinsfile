@@ -15,6 +15,7 @@ stage('Cloning Project from Git') {
 steps {
      
    sh  "git clone 'https://github.com/amdesprit/espritDevopsProject'" 
+   sh "git branch"
 
     }}
 
@@ -47,7 +48,7 @@ sh "mvn clean package deploy:deploy-file -DgroupId=com.esprit.spring -DartifactI
 stage('Building our image') {
 steps {
 script {
-dockerImage = docker.build registry + ":1.0.0"
+dockerImage = docker.build registry + ":$BUILD_NUMBER"
 }
 }
 }
@@ -56,7 +57,8 @@ stage('Deploy our image') {
 steps {
 script {
 docker.withRegistry( '', registryCredential ) {
-dockerImage.push()
+dockerImage.push()    
+
 }
 }
 }
@@ -64,7 +66,7 @@ dockerImage.push()
 
 stage('Cleaning up') {
 steps {
-sh "docker rmi $registry:1.0.0"
+sh "docker rmi $registry:$BUILD_NUMBER"
 }
 }
 }
