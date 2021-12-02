@@ -27,14 +27,15 @@ class EmployeServiceImplTest {
     Entreprise entreprise;
     Contrat contract_1, contract_2, contract_3;
     Departement department_1;
-    final Employe employee_1= new Employe("Khaled", "Kallel", "Khaled.kallel@ssiiconsulting.tn", true, Role.INGENIEUR);
-    Employe employee_2= new Employe("Khaled", "ben", "updatedmail@mail.com", true, Role.INGENIEUR);
-    final Employe employee_3= new Employe("monji", "slim", "monji@ssiiconsulting.tn", true, Role.CHEF_DEPARTEMENT);
+    Employe employee_2= new Employe("Khaled", "Kallel", "Khaled_.kallel@ssiiconsulting.tn", true, Role.INGENIEUR);
+    Employe employee_1= new Employe("Khaled", "ben", "updatedmail@mail.com", true, Role.INGENIEUR);
+    Employe employee_3= new Employe("monji", "slim", "monji@ssiiconsulting.tn", true, Role.CHEF_DEPARTEMENT);
 
     @Test
     void getNombreEmployeJPQL() {
-        employeeService.ajouterEmploye(employee_1);
         int count = employeeService.getNombreEmployeJPQL();
+        if(count == 0)
+            employeeService.ajouterEmploye(employee_1);
         Assert.assertNotEquals(0, count);
     }
 
