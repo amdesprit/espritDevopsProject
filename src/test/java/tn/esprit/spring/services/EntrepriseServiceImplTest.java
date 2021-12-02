@@ -77,8 +77,8 @@ import tn.esprit.spring.entities.Entreprise;
 //			         Entreprise entreprise=new Entreprise(3,"Testent","ent");
 		             //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
 //			         ESer.ajouterEntreprise(entreprise);
-               		 Entreprise ent = ESer.getEntrepriseById(25);
-               		 assertEquals("Accretio",ent.getName());
+               		 Entreprise ent = ESer.getEntrepriseById(112);
+               		 assertEquals("testent",ent.getName());
                        }
                        
 
@@ -133,6 +133,7 @@ import tn.esprit.spring.entities.Entreprise;
                @Test
                void deleteDepartementById() throws ParseException {
 	                Departement departement=new Departement("testdep");
+	                departement.setEntreprise(ESer.getallEntreprises().get(0));
 	                ESer.ajouterDepartement(departement);
 	                int departmentId= ESer.getallEntreprises().get(0).getDepartements().get(0).getId();
 	          	  	Assert.assertTrue(ESer.deleteDepartementById(departmentId));
