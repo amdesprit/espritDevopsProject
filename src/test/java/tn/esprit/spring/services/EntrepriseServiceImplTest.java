@@ -119,7 +119,7 @@ import tn.esprit.spring.entities.Entreprise;
 	                //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
 	                ESer.ajouterEntreprise(entreprise);
 	                
-	          	  	Assert.assertTrue(ESer.deleteEntrepriseById(45));
+	          	  	Assert.assertTrue(ESer.deleteEntrepriseById(46));
 
 	                
 	                //List<Entreprise> listentreprisebefore=ESer.getallEntreprises();
