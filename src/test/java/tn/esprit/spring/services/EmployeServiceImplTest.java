@@ -34,10 +34,11 @@ public class EmployeServiceImplTest {
     MissionRepository missionRepository;
 
     @Autowired
-    public EmployeServiceImplTest(EmployeServiceImpl employeeService, ContratRepository contractRepository, MissionRepository missionRepository) {
+    public EmployeServiceImplTest(EmployeServiceImpl employeeService, ContratRepository contractRepository, MissionRepository missionRepository) throws ParseException {
         this.employeeService = employeeService;
         this.contractRepository = contractRepository;
         this.missionRepository = missionRepository;
+        init();
     }
 
     private Employe employee_1, employee_2, employee_3;
@@ -46,8 +47,7 @@ public class EmployeServiceImplTest {
     private Contrat contract_1, contract_2, contract_3;
     private Departement department_1;
 
-    @Before
-    public void init() throws ParseException {
+    public void init() throws ParseException{
         employeesList = new ArrayList<>();
         employee_1 = new Employe(1, "Khaled", "Kallel", "Khaled.kallel@ssiiconsulting.tn", true, Role.INGENIEUR);
         employee_2 = new Employe(2, "Khaled", "ben", "updatedmail@mail.com", true, Role.INGENIEUR);
