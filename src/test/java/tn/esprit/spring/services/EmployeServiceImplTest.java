@@ -26,7 +26,6 @@ import java.util.stream.Collectors;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@ComponentScan(basePackageClasses = {EmployeServiceImpl.class,ContratRepository.class,MissionRepository.class})
 public class EmployeServiceImplTest {
     private static final Logger log = Logger.getLogger(EmployeServiceImplTest.class);
 

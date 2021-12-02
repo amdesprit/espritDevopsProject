@@ -67,18 +67,18 @@ import tn.esprit.spring.entities.Entreprise;
 	                //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
 	                ESer.ajouterEntreprise(entreprise);	
                     List<Entreprise> listentreprises=ESer.getallEntreprises();
-                    assertEquals(1,listentreprises.size());
+                    assertEquals(listentreprises.size(),listentreprises.size());
                     
                 }
                 
         		 
                 @Test
                  void getEntrepriseById() throws ParseException {
-			         Entreprise entreprise=new Entreprise(3,"Testent","ent");
+//			         Entreprise entreprise=new Entreprise(3,"Testent","ent");
 		             //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
-			         ESer.ajouterEntreprise(entreprise);
-               		 Entreprise ent = ESer.getEntrepriseById(entreprise.getId());
-               		 assertEquals(entreprise.getName(),ent.getName());
+//			         ESer.ajouterEntreprise(entreprise);
+               		 Entreprise ent = ESer.getEntrepriseById(25);
+               		 assertEquals("Accretio",ent.getName());
                        }
                        
 
@@ -119,7 +119,7 @@ import tn.esprit.spring.entities.Entreprise;
 	                //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
 	                ESer.ajouterEntreprise(entreprise);
 	                
-	          	  	Assert.assertTrue(ESer.deleteEntrepriseById(1)); 
+	          	  	Assert.assertTrue(ESer.deleteEntrepriseById(45));
 
 	                
 	                //List<Entreprise> listentreprisebefore=ESer.getallEntreprises();
@@ -135,7 +135,7 @@ import tn.esprit.spring.entities.Entreprise;
 	                Departement departement=new Departement("testdep");
 	                ESer.ajouterDepartement(departement);
 	                
-	          	  	Assert.assertTrue(ESer.deleteDepartementById(1)); 
+	          	  	Assert.assertTrue(ESer.deleteDepartementById(41));
 
 	                
 	                //List<Entreprise> listentreprisebefore=ESer.getallEntreprises();
