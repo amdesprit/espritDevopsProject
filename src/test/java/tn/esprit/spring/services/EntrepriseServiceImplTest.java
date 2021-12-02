@@ -119,7 +119,7 @@ import tn.esprit.spring.entities.Entreprise;
 	                //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
 	                ESer.ajouterEntreprise(entreprise);
 	                
-	          	  	Assert.assertTrue(ESer.deleteEntrepriseById(1));
+	          	  	Assert.assertTrue(ESer.deleteEntrepriseById(ESer.getallEntreprises().get(ESer.getallEntreprises().size()-1).getId()));
 
 	                
 	                //List<Entreprise> listentreprisebefore=ESer.getallEntreprises();
@@ -134,8 +134,8 @@ import tn.esprit.spring.entities.Entreprise;
                void deleteDepartementById() throws ParseException {
 	                Departement departement=new Departement("testdep");
 	                ESer.ajouterDepartement(departement);
-	                
-	          	  	Assert.assertTrue(ESer.deleteDepartementById(1));
+	                int departmentId= ESer.getallEntreprises().get(0).getDepartements().get(0).getId();
+	          	  	Assert.assertTrue(ESer.deleteDepartementById(departmentId));
 
 	                
 	                //List<Entreprise> listentreprisebefore=ESer.getallEntreprises();
