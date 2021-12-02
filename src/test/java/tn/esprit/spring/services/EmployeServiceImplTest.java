@@ -12,8 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.junit4.SpringRunner;
 import tn.esprit.spring.entities.*;
-import tn.esprit.spring.repository.ContratRepository;
-import tn.esprit.spring.repository.MissionRepository;
+import tn.esprit.spring.repository.*;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -32,17 +31,20 @@ public class EmployeServiceImplTest {
     EmployeServiceImpl employeeService;
     ContratRepository contractRepository;
     MissionRepository missionRepository;
+    DepartementRepository departementRepository;
+    EntrepriseRepository entrepriseRepository;
 
     @Autowired
-    public EmployeServiceImplTest(EmployeServiceImpl employeeService, ContratRepository contractRepository, MissionRepository missionRepository) throws ParseException {
+    public EmployeServiceImplTest(EmployeServiceImpl employeeService, ContratRepository contractRepository, MissionRepository missionRepository,DepartementRepository departementRepository,EntrepriseRepository entrepriseRepository) {
         this.employeeService = employeeService;
         this.contractRepository = contractRepository;
         this.missionRepository = missionRepository;
-        init();
+        this.departementRepository = departementRepository;
+        this.entrepriseRepository = entrepriseRepository;
     }
 
     private Employe employee_1, employee_2, employee_3;
-    private List<Employe> employeesList;
+    private List<Employe> employeesList= new ArrayList<>();
     private Entreprise entreprise;
     private Contrat contract_1, contract_2, contract_3;
     private Departement department_1;
@@ -86,8 +88,18 @@ public class EmployeServiceImplTest {
     /*  DONIA TEST  */
     @Test
     public void getNombreEmployeJPQL() {
+        employee_1 = new Employe(1, "Khaled", "Kallel", "Khaled.kallel@ssiiconsulting.tn", true, Role.INGENIEUR);
+        employee_2 = new Employe(2, "Khaled", "ben", "updatedmail@mail.com", true, Role.INGENIEUR);
+        employee_3 = new Employe(3, "monji", "slim", "monji@ssiiconsulting.tn", true, Role.CHEF_DEPARTEMENT);
+        employeesList.add(employee_1);
+        employeesList.add(employee_2);
+        employeesList.add(employee_3);
+        employeeService.ajouterEmploye(employee_1);
+        employeeService.ajouterEmploye(employee_2);
+        employeeService.ajouterEmploye(employee_3);
+
         int count = employeeService.getNombreEmployeJPQL();
-        Assert.assertEquals(".. getNombreOfEmployeeJPQL count : ", 3, count);
+        Assert.assertEquals(".. getNombreOfEmployeeJPQL count : ", employeesList.size(), count);
     }
 
     @Test
@@ -99,6 +111,11 @@ public class EmployeServiceImplTest {
 
     @Test
     public void getAllEmployeByEntreprise() {
+        entreprise = new Entreprise(1, "Accretio", "Accretio France");
+        department_1 = new Departement(28, "Mobile", employeeService.getAllEmployes(), entreprise);
+        entreprise.addDepartement(department_1);
+        entrepriseRepository.save(entreprise);
+        departementRepository.save(department_1);
         List<Employe> actual_employee_by_enterprise = employeeService.getAllEmployeByEntreprise(entreprise);
         Assert.assertNotNull(actual_employee_by_enterprise);
     }
@@ -113,6 +130,7 @@ public class EmployeServiceImplTest {
                     employee = e;break;
                 }
         }
+        assert employee != null;
         Assert.assertEquals("check updated mail ","updatedmail@mail.com",employee.getEmail());
     }
 

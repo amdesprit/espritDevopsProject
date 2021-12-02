@@ -119,7 +119,7 @@ import tn.esprit.spring.entities.Entreprise;
 	                //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
 	                ESer.ajouterEntreprise(entreprise);
 	                
-	          	  	Assert.assertTrue(ESer.deleteEntrepriseById(51));
+	          	  	Assert.assertTrue(ESer.deleteEntrepriseById(1));
 
 	                
 	                //List<Entreprise> listentreprisebefore=ESer.getallEntreprises();
@@ -135,7 +135,7 @@ import tn.esprit.spring.entities.Entreprise;
 	                Departement departement=new Departement("testdep");
 	                ESer.ajouterDepartement(departement);
 	                
-	          	  	Assert.assertTrue(ESer.deleteDepartementById(41));
+	          	  	Assert.assertTrue(ESer.deleteDepartementById(1));
 
 	                
 	                //List<Entreprise> listentreprisebefore=ESer.getallEntreprises();
