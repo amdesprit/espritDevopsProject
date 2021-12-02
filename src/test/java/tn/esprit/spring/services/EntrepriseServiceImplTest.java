@@ -77,8 +77,8 @@ import tn.esprit.spring.entities.Entreprise;
 //			         Entreprise entreprise=new Entreprise(3,"Testent","ent");
 		             //Entreprise addedEntreprise = ES.ajouterEntreprise(entreprise);
 //			         ESer.ajouterEntreprise(entreprise);
-               		 Entreprise ent = ESer.getEntrepriseById(112);
-               		 assertEquals("testent",ent.getName());
+               		 Entreprise ent = ESer.getEntrepriseById(3);
+               		 assertEquals("TestUpdate",ent.getName());
                        }
                        
 

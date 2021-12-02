@@ -2761,3 +2761,1122 @@
 2021-12-02 15:35:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
 2021-12-02 15:35:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
 2021-12-02 15:35:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:02:28 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:202):202 - ** start  getAllEmployeeNamesJPQL : 
+2021-12-02 23:02:28 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:206):206 -  -- N° 1 : Names of employee : []
+2021-12-02 23:02:28 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:207):207 - ** end  getAllEmployeeNamesJPQL without error 
+2021-12-02 23:02:28 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:02:28 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :0
+2021-12-02 23:02:28 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:02:28 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:118):118 - Dans ajouterContrat() : 
+2021-12-02 23:02:28 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:119):119 - Ajout du contrat tn.esprit.spring.entities.Contrat@197d5a87
+2021-12-02 23:02:28 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:124):124 - Ajout Contrat fait !!!
+2021-12-02 23:02:28 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:125):125 - Sortie de ajouterContrat sans erreurs
+2021-12-02 23:02:28 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:02:28 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :0
+2021-12-02 23:02:28 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:215):215 - ** start  getAllEmployeeByEnterprise : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:219):219 -  -- N° 1 : the number of employees of the enterprise :Accretio .. is :0
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:221):221 -  -- N° 2 : their names are :[]
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:222):222 - ** end  getAllEmployeeByEnterprise without error
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:244):244 - ** start  deleteAllContactJPQL : 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:247):247 - ** end  deleteAllContactJPQL without error
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :0
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:36):36 - Dans ajouterEmploye() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:37):37 - Ajout de l'emplyé tn.esprit.spring.entities.Employe@8d534ebd
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:40):40 - Ajout Employé fait !!!
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:41):41 - Sortie de ajouterEmployé sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :1
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :1
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:255):255 - ** start  getSalaryByEmployeeIdJPQL : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:256):256 -  -- N° 1 : the employee :1
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:260):260 -  -- N° 2 : his salary is :1200.0
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:261):261 - ** end  getSalaryByEmployeeIdJPQL  without error 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:189):189 - ** start  getNumberEmployeeJPQL : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:193):193 -  -- the numbers of employee is :1
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:194):194 - ** end  getNumberEmployeeJPQL without error 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@49f2646
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@49f2646 ajouter
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:148):148 - Dans deleteDepartementById() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:149):149 - Suppression du departement 22
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:160):160 - Suppression du departement terminée
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:161):161 - Sortie de deleteDepartementById sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:190):190 - Dans UpdateEntreprise() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:191):191 - Update de l'entreprise 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:195):195 - Update de l'entreprise fait 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:196):196 - Sortie de UpdateEntreprise sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@38b54694
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@38b54694 ajouter
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=1, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:124):124 - Dans deleteEntrepriseById() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:125):125 - Suppression de l'entreprise 22
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:137):137 - Suppression de l'entreprise terminée
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:138):138 - Sortie de deleteEntrepriseById sans erreurs true
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 112
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=7, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@bdda8a7
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@bdda8a7 ajouter
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 24 a l'entreprise 7
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=9, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@669580e2
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@669580e2 ajouter
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 25 a l'entreprise 9
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:02:29 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:02:29 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:202):202 - ** start  getAllEmployeeNamesJPQL : 
+2021-12-02 23:10:22 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:206):206 -  -- N° 1 : Names of employee : [Manel]
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:207):207 - ** end  getAllEmployeeNamesJPQL without error 
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:10:22 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :1
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:231):231 - ** start  UpdateEmailByEmployeeIdJPQL : 
+2021-12-02 23:10:22 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:233):233 -  -- N° 1 : the employee :1 will have a new mail :updated_mail@mail.com
+2021-12-02 23:10:22 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:235):235 -  -- N° 2 : the employee :1 updated successfully 
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:236):236 - ** end  UpdateEmailByEmployeeIdJPQL without error 
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:10:22 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :1
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:118):118 - Dans ajouterContrat() : 
+2021-12-02 23:10:22 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:119):119 - Ajout du contrat tn.esprit.spring.entities.Contrat@6f655dbd
+2021-12-02 23:10:22 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:124):124 - Ajout Contrat fait !!!
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:125):125 - Sortie de ajouterContrat sans erreurs
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:10:22 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :1
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:10:22 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:215):215 - ** start  getAllEmployeeByEnterprise : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:219):219 -  -- N° 1 : the number of employees of the enterprise :Accretio .. is :1
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:221):221 -  -- N° 2 : their names are :[Manel]
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:222):222 - ** end  getAllEmployeeByEnterprise without error
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:244):244 - ** start  deleteAllContactJPQL : 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:247):247 - ** end  deleteAllContactJPQL without error
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :1
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:36):36 - Dans ajouterEmploye() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:37):37 - Ajout de l'emplyé tn.esprit.spring.entities.Employe@72bf78d6
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:40):40 - Ajout Employé fait !!!
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:41):41 - Sortie de ajouterEmployé sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:255):255 - ** start  getSalaryByEmployeeIdJPQL : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:256):256 -  -- N° 1 : the employee :1
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:260):260 -  -- N° 2 : his salary is :1200.0
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:261):261 - ** end  getSalaryByEmployeeIdJPQL  without error 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:189):189 - ** start  getNumberEmployeeJPQL : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:193):193 -  -- the numbers of employee is :2
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:194):194 - ** end  getNumberEmployeeJPQL without error 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@186dcb05
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@186dcb05 ajouter
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:148):148 - Dans deleteDepartementById() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:149):149 - Suppression du departement 22
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:160):160 - Suppression du departement terminée
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:161):161 - Sortie de deleteDepartementById sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:190):190 - Dans UpdateEntreprise() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:191):191 - Update de l'entreprise 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:195):195 - Update de l'entreprise fait 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:196):196 - Sortie de UpdateEntreprise sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@28f8ce2e
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@28f8ce2e ajouter
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=1, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:124):124 - Dans deleteEntrepriseById() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:125):125 - Suppression de l'entreprise 26
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:137):137 - Suppression de l'entreprise terminée
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:138):138 - Sortie de deleteEntrepriseById sans erreurs true
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 112
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=7, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@4a6ef712
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@4a6ef712 ajouter
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 29 a l'entreprise 7
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=9, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@57eed461
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@57eed461 ajouter
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 30 a l'entreprise 9
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:10:23 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:10:23 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:11:16 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:202):202 - ** start  getAllEmployeeNamesJPQL : 
+2021-12-02 23:11:16 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:206):206 -  -- N° 1 : Names of employee : [Manel, Manel]
+2021-12-02 23:11:16 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:207):207 - ** end  getAllEmployeeNamesJPQL without error 
+2021-12-02 23:11:16 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:11:16 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:11:16 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:11:16 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:231):231 - ** start  UpdateEmailByEmployeeIdJPQL : 
+2021-12-02 23:11:16 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:233):233 -  -- N° 1 : the employee :1 will have a new mail :updated_mail@mail.com
+2021-12-02 23:11:16 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:235):235 -  -- N° 2 : the employee :1 updated successfully 
+2021-12-02 23:11:16 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:236):236 - ** end  UpdateEmailByEmployeeIdJPQL without error 
+2021-12-02 23:11:16 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:11:16 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:11:16 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:11:16 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:118):118 - Dans ajouterContrat() : 
+2021-12-02 23:11:16 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:119):119 - Ajout du contrat tn.esprit.spring.entities.Contrat@160546b1
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:124):124 - Ajout Contrat fait !!!
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:125):125 - Sortie de ajouterContrat sans erreurs
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:215):215 - ** start  getAllEmployeeByEnterprise : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:219):219 -  -- N° 1 : the number of employees of the enterprise :Accretio .. is :2
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:221):221 -  -- N° 2 : their names are :[Manel, Manel]
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:222):222 - ** end  getAllEmployeeByEnterprise without error
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:244):244 - ** start  deleteAllContactJPQL : 
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:247):247 - ** end  deleteAllContactJPQL without error
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:36):36 - Dans ajouterEmploye() : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:37):37 - Ajout de l'emplyé tn.esprit.spring.entities.Employe@7cd48133
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:255):255 - ** start  getSalaryByEmployeeIdJPQL : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:256):256 -  -- N° 1 : the employee :1
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:260):260 -  -- N° 2 : his salary is :1200.0
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:261):261 - ** end  getSalaryByEmployeeIdJPQL  without error 
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:189):189 - ** start  getNumberEmployeeJPQL : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:193):193 -  -- the numbers of employee is :2
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:194):194 - ** end  getNumberEmployeeJPQL without error 
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@2aa811f9
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@2aa811f9 ajouter
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:148):148 - Dans deleteDepartementById() : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:149):149 - Suppression du departement 22
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:160):160 - Suppression du departement terminée
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:161):161 - Sortie de deleteDepartementById sans erreurs
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:11:17 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:11:17 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:190):190 - Dans UpdateEntreprise() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:191):191 - Update de l'entreprise 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:195):195 - Update de l'entreprise fait 
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:196):196 - Sortie de UpdateEntreprise sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@3e595da3
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@3e595da3 ajouter
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=1, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:124):124 - Dans deleteEntrepriseById() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:125):125 - Suppression de l'entreprise 30
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:137):137 - Suppression de l'entreprise terminée
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:138):138 - Sortie de deleteEntrepriseById sans erreurs true
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 112
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=7, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@63a7af06
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@63a7af06 ajouter
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 34 a l'entreprise 7
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=9, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@5db04bd2
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@5db04bd2 ajouter
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 35 a l'entreprise 9
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:11:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:11:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:202):202 - ** start  getAllEmployeeNamesJPQL : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:206):206 -  -- N° 1 : Names of employee : [Manel, Manel]
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:207):207 - ** end  getAllEmployeeNamesJPQL without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:231):231 - ** start  UpdateEmailByEmployeeIdJPQL : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:233):233 -  -- N° 1 : the employee :1 will have a new mail :updated_mail@mail.com
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:235):235 -  -- N° 2 : the employee :1 updated successfully 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:236):236 - ** end  UpdateEmailByEmployeeIdJPQL without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:118):118 - Dans ajouterContrat() : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:119):119 - Ajout du contrat tn.esprit.spring.entities.Contrat@b6136eb
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:124):124 - Ajout Contrat fait !!!
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:125):125 - Sortie de ajouterContrat sans erreurs
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:215):215 - ** start  getAllEmployeeByEnterprise : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:219):219 -  -- N° 1 : the number of employees of the enterprise :Accretio .. is :2
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:221):221 -  -- N° 2 : their names are :[Manel, Manel]
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:222):222 - ** end  getAllEmployeeByEnterprise without error
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:244):244 - ** start  deleteAllContactJPQL : 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:247):247 - ** end  deleteAllContactJPQL without error
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:36):36 - Dans ajouterEmploye() : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:37):37 - Ajout de l'emplyé tn.esprit.spring.entities.Employe@9ea274fe
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:255):255 - ** start  getSalaryByEmployeeIdJPQL : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:256):256 -  -- N° 1 : the employee :1
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:260):260 -  -- N° 2 : his salary is :1200.0
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:261):261 - ** end  getSalaryByEmployeeIdJPQL  without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:189):189 - ** start  getNumberEmployeeJPQL : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:193):193 -  -- the numbers of employee is :2
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:194):194 - ** end  getNumberEmployeeJPQL without error 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@23d978b
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@23d978b ajouter
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:13:39 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:13:39 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:148):148 - Dans deleteDepartementById() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:149):149 - Suppression du departement 22
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:160):160 - Suppression du departement terminée
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:161):161 - Sortie de deleteDepartementById sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:190):190 - Dans UpdateEntreprise() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:191):191 - Update de l'entreprise 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:195):195 - Update de l'entreprise fait 
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:196):196 - Sortie de UpdateEntreprise sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@61bf405d
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@61bf405d ajouter
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=1, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:124):124 - Dans deleteEntrepriseById() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:125):125 - Suppression de l'entreprise 34
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:137):137 - Suppression de l'entreprise terminée
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:138):138 - Sortie de deleteEntrepriseById sans erreurs true
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 112
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=7, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@719bb60d
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@719bb60d ajouter
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 39 a l'entreprise 7
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=9, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@ba87c11
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@ba87c11 ajouter
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 40 a l'entreprise 9
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:13:40 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:13:40 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:16:05 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:202):202 - ** start  getAllEmployeeNamesJPQL : 
+2021-12-02 23:16:05 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:206):206 -  -- N° 1 : Names of employee : [Manel, Manel]
+2021-12-02 23:16:05 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:207):207 - ** end  getAllEmployeeNamesJPQL without error 
+2021-12-02 23:16:05 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:231):231 - ** start  UpdateEmailByEmployeeIdJPQL : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:233):233 -  -- N° 1 : the employee :1 will have a new mail :updated_mail@mail.com
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:235):235 -  -- N° 2 : the employee :1 updated successfully 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:236):236 - ** end  UpdateEmailByEmployeeIdJPQL without error 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:118):118 - Dans ajouterContrat() : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:119):119 - Ajout du contrat tn.esprit.spring.entities.Contrat@69bca406
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:124):124 - Ajout Contrat fait !!!
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:125):125 - Sortie de ajouterContrat sans erreurs
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:215):215 - ** start  getAllEmployeeByEnterprise : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:219):219 -  -- N° 1 : the number of employees of the enterprise :Accretio .. is :2
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:221):221 -  -- N° 2 : their names are :[Manel, Manel]
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:222):222 - ** end  getAllEmployeeByEnterprise without error
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:244):244 - ** start  deleteAllContactJPQL : 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:247):247 - ** end  deleteAllContactJPQL without error
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :2
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:36):36 - Dans ajouterEmploye() : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:37):37 - Ajout de l'emplyé tn.esprit.spring.entities.Employe@96ff1702
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:40):40 - Ajout Employé fait !!!
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:41):41 - Sortie de ajouterEmployé sans erreurs
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :3
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :3
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:255):255 - ** start  getSalaryByEmployeeIdJPQL : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:256):256 -  -- N° 1 : the employee :1
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:260):260 -  -- N° 2 : his salary is :1200.0
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:261):261 - ** end  getSalaryByEmployeeIdJPQL  without error 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:189):189 - ** start  getNumberEmployeeJPQL : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:193):193 -  -- the numbers of employee is :3
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:194):194 - ** end  getNumberEmployeeJPQL without error 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@4af0c50
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@4af0c50 ajouter
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:16:06 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:16:06 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:148):148 - Dans deleteDepartementById() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:149):149 - Suppression du departement 22
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:160):160 - Suppression du departement terminée
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:161):161 - Sortie de deleteDepartementById sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:190):190 - Dans UpdateEntreprise() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:191):191 - Update de l'entreprise 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:195):195 - Update de l'entreprise fait 
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:196):196 - Sortie de UpdateEntreprise sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@30b1c5d5
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@30b1c5d5 ajouter
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=1, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:124):124 - Dans deleteEntrepriseById() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:125):125 - Suppression de l'entreprise 38
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:137):137 - Suppression de l'entreprise terminée
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:138):138 - Sortie de deleteEntrepriseById sans erreurs true
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 112
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=7, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@1a88d194
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@1a88d194 ajouter
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 44 a l'entreprise 7
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=9, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@1ef04613
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@1ef04613 ajouter
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 45 a l'entreprise 9
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:16:07 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:16:07 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:202):202 - ** start  getAllEmployeeNamesJPQL : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:206):206 -  -- N° 1 : Names of employee : [Manel, Manel, Ines]
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:207):207 - ** end  getAllEmployeeNamesJPQL without error 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :3
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:231):231 - ** start  UpdateEmailByEmployeeIdJPQL : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:233):233 -  -- N° 1 : the employee :1 will have a new mail :updated_mail@mail.com
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:235):235 -  -- N° 2 : the employee :1 updated successfully 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:236):236 - ** end  UpdateEmailByEmployeeIdJPQL without error 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :3
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:118):118 - Dans ajouterContrat() : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:119):119 - Ajout du contrat tn.esprit.spring.entities.Contrat@211da640
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:124):124 - Ajout Contrat fait !!!
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:125):125 - Sortie de ajouterContrat sans erreurs
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :3
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:215):215 - ** start  getAllEmployeeByEnterprise : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:219):219 -  -- N° 1 : the number of employees of the enterprise :Accretio .. is :3
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:221):221 -  -- N° 2 : their names are :[Manel, Manel, Ines]
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:222):222 - ** end  getAllEmployeeByEnterprise without error
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:244):244 - ** start  deleteAllContactJPQL : 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:247):247 - ** end  deleteAllContactJPQL without error
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :3
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:36):36 - Dans ajouterEmploye() : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:37):37 - Ajout de l'emplyé tn.esprit.spring.entities.Employe@23a6713f
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:40):40 - Ajout Employé fait !!!
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:41):41 - Sortie de ajouterEmployé sans erreurs
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:17:04 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:255):255 - ** start  getSalaryByEmployeeIdJPQL : 
+2021-12-02 23:17:04 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:256):256 -  -- N° 1 : the employee :1
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:260):260 -  -- N° 2 : his salary is :1200.0
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:261):261 - ** end  getSalaryByEmployeeIdJPQL  without error 
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:189):189 - ** start  getNumberEmployeeJPQL : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:193):193 -  -- the numbers of employee is :4
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:194):194 - ** end  getNumberEmployeeJPQL without error 
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@3412a3fd
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@3412a3fd ajouter
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:148):148 - Dans deleteDepartementById() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:149):149 - Suppression du departement 22
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:160):160 - Suppression du departement terminée
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:161):161 - Sortie de deleteDepartementById sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:190):190 - Dans UpdateEntreprise() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:191):191 - Update de l'entreprise 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:195):195 - Update de l'entreprise fait 
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:196):196 - Sortie de UpdateEntreprise sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@5906ebfb
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@5906ebfb ajouter
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=1, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:124):124 - Dans deleteEntrepriseById() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:125):125 - Suppression de l'entreprise 42
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:137):137 - Suppression de l'entreprise terminée
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:138):138 - Sortie de deleteEntrepriseById sans erreurs true
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 112
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=7, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@1e66bf2d
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@1e66bf2d ajouter
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 49 a l'entreprise 7
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=9, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@60ef30b1
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@60ef30b1 ajouter
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 50 a l'entreprise 9
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:17:05 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:17:05 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:202):202 - ** start  getAllEmployeeNamesJPQL : 
+2021-12-02 23:18:59 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:206):206 -  -- N° 1 : Names of employee : [Manel, Manel, Ines, Ahlem]
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:207):207 - ** end  getAllEmployeeNamesJPQL without error 
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:18:59 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:231):231 - ** start  UpdateEmailByEmployeeIdJPQL : 
+2021-12-02 23:18:59 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:233):233 -  -- N° 1 : the employee :1 will have a new mail :updated_mail@mail.com
+2021-12-02 23:18:59 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:235):235 -  -- N° 2 : the employee :1 updated successfully 
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:236):236 - ** end  UpdateEmailByEmployeeIdJPQL without error 
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:18:59 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:118):118 - Dans ajouterContrat() : 
+2021-12-02 23:18:59 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:119):119 - Ajout du contrat tn.esprit.spring.entities.Contrat@2cff5aa3
+2021-12-02 23:18:59 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:124):124 - Ajout Contrat fait !!!
+2021-12-02 23:18:59 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:125):125 - Sortie de ajouterContrat sans erreurs
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:215):215 - ** start  getAllEmployeeByEnterprise : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:219):219 -  -- N° 1 : the number of employees of the enterprise :Accretio .. is :4
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:221):221 -  -- N° 2 : their names are :[Manel, Manel, Ines, Ahlem]
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:222):222 - ** end  getAllEmployeeByEnterprise without error
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:244):244 - ** start  deleteAllContactJPQL : 
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:247):247 - ** end  deleteAllContactJPQL without error
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:36):36 - Dans ajouterEmploye() : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:37):37 - Ajout de l'emplyé tn.esprit.spring.entities.Employe@5f58fd50
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:255):255 - ** start  getSalaryByEmployeeIdJPQL : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:256):256 -  -- N° 1 : the employee :1
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:260):260 -  -- N° 2 : his salary is :1200.0
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:261):261 - ** end  getSalaryByEmployeeIdJPQL  without error 
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:189):189 - ** start  getNumberEmployeeJPQL : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:193):193 -  -- the numbers of employee is :4
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:194):194 - ** end  getNumberEmployeeJPQL without error 
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@2006fdaa
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@2006fdaa ajouter
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:148):148 - Dans deleteDepartementById() : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:149):149 - Suppression du departement 22
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:160):160 - Suppression du departement terminée
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:161):161 - Sortie de deleteDepartementById sans erreurs
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:19:00 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:19:00 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:190):190 - Dans UpdateEntreprise() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:191):191 - Update de l'entreprise 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:195):195 - Update de l'entreprise fait 
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:196):196 - Sortie de UpdateEntreprise sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@7096d451
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@7096d451 ajouter
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=1, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:124):124 - Dans deleteEntrepriseById() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:125):125 - Suppression de l'entreprise 46
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:137):137 - Suppression de l'entreprise terminée
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:138):138 - Sortie de deleteEntrepriseById sans erreurs true
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 3
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=7, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@5f9ccd0c
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@5f9ccd0c ajouter
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 54 a l'entreprise 7
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=9, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@6b630d4b
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@6b630d4b ajouter
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 55 a l'entreprise 9
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:19:01 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:19:01 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:21:18 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:202):202 - ** start  getAllEmployeeNamesJPQL : 
+2021-12-02 23:21:18 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:206):206 -  -- N° 1 : Names of employee : [Manel, Manel, Ines, Ahlem]
+2021-12-02 23:21:18 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:207):207 - ** end  getAllEmployeeNamesJPQL without error 
+2021-12-02 23:21:18 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:231):231 - ** start  UpdateEmailByEmployeeIdJPQL : 
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:233):233 -  -- N° 1 : the employee :1 will have a new mail :updated_mail@mail.com
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:235):235 -  -- N° 2 : the employee :1 updated successfully 
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:236):236 - ** end  UpdateEmailByEmployeeIdJPQL without error 
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:118):118 - Dans ajouterContrat() : 
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:119):119 - Ajout du contrat tn.esprit.spring.entities.Contrat@48d31d25
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:124):124 - Ajout Contrat fait !!!
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:125):125 - Sortie de ajouterContrat sans erreurs
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:215):215 - ** start  getAllEmployeeByEnterprise : 
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:219):219 -  -- N° 1 : the number of employees of the enterprise :Accretio .. is :4
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:221):221 -  -- N° 2 : their names are :[Manel, Manel, Ines, Ahlem]
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:222):222 - ** end  getAllEmployeeByEnterprise without error
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:244):244 - ** start  deleteAllContactJPQL : 
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:247):247 - ** end  deleteAllContactJPQL without error
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:36):36 - Dans ajouterEmploye() : 
+2021-12-02 23:21:19 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:37):37 - Ajout de l'emplyé tn.esprit.spring.entities.Employe@c2776fb0
+2021-12-02 23:21:19 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:255):255 - ** start  getSalaryByEmployeeIdJPQL : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:256):256 -  -- N° 1 : the employee :1
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:260):260 -  -- N° 2 : his salary is :1200.0
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:261):261 - ** end  getSalaryByEmployeeIdJPQL  without error 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:189):189 - ** start  getNumberEmployeeJPQL : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:193):193 -  -- the numbers of employee is :4
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:194):194 - ** end  getNumberEmployeeJPQL without error 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@be083e1
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@be083e1 ajouter
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:148):148 - Dans deleteDepartementById() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:149):149 - Suppression du departement 22
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:160):160 - Suppression du departement terminée
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:161):161 - Sortie de deleteDepartementById sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:190):190 - Dans UpdateEntreprise() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:191):191 - Update de l'entreprise 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:195):195 - Update de l'entreprise fait 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:196):196 - Sortie de UpdateEntreprise sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@341964d0
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@341964d0 ajouter
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=1, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:124):124 - Dans deleteEntrepriseById() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:125):125 - Suppression de l'entreprise 50
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:137):137 - Suppression de l'entreprise terminée
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:138):138 - Sortie de deleteEntrepriseById sans erreurs true
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 3
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
+2021-12-02 23:21:20 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:21:20 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=7, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@6f27730b
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@6f27730b ajouter
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 59 a l'entreprise 7
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=9, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@285c63cf
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@285c63cf ajouter
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 60 a l'entreprise 9
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:21:21 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:21:21 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:202):202 - ** start  getAllEmployeeNamesJPQL : 
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:206):206 -  -- N° 1 : Names of employee : [Manel, Manel, Ines, Ahlem]
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeNamesJPQL(EmployeServiceImpl.java:207):207 - ** end  getAllEmployeeNamesJPQL without error 
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:231):231 - ** start  UpdateEmailByEmployeeIdJPQL : 
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:233):233 -  -- N° 1 : the employee :1 will have a new mail :updated_mail@mail.com
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:235):235 -  -- N° 2 : the employee :1 updated successfully 
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.mettreAjourEmailByEmployeIdJPQL(EmployeServiceImpl.java:236):236 - ** end  UpdateEmailByEmployeeIdJPQL without error 
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:118):118 - Dans ajouterContrat() : 
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:119):119 - Ajout du contrat tn.esprit.spring.entities.Contrat@37fca349
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:124):124 - Ajout Contrat fait !!!
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterContrat(EmployeServiceImpl.java:125):125 - Sortie de ajouterContrat sans erreurs
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:215):215 - ** start  getAllEmployeeByEnterprise : 
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:219):219 -  -- N° 1 : the number of employees of the enterprise :Accretio .. is :4
+2021-12-02 23:22:40 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:221):221 -  -- N° 2 : their names are :[Manel, Manel, Ines, Ahlem]
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployeByEntreprise(EmployeServiceImpl.java:222):222 - ** end  getAllEmployeeByEnterprise without error
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:244):244 - ** start  deleteAllContactJPQL : 
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.deleteAllContratJPQL(EmployeServiceImpl.java:247):247 - ** end  deleteAllContactJPQL without error
+2021-12-02 23:22:40 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :4
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:36):36 - Dans ajouterEmploye() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:37):37 - Ajout de l'emplyé tn.esprit.spring.entities.Employe@fcc7bec0
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:40):40 - Ajout Employé fait !!!
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.ajouterEmploye(EmployeServiceImpl.java:41):41 - Sortie de ajouterEmployé sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :5
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:299):299 - ** start  getAllEmployees : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:303):303 -  -- N° 1 : the employee list count :5
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getAllEmployes(EmployeServiceImpl.java:304):304 - ** end  getAllEmployees without error 
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:255):255 - ** start  getSalaryByEmployeeIdJPQL : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:256):256 -  -- N° 1 : the employee :1
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:260):260 -  -- N° 2 : his salary is :1200.0
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:261):261 - ** end  getSalaryByEmployeeIdJPQL  without error 
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:189):189 - ** start  getNumberEmployeeJPQL : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:193):193 -  -- the numbers of employee is :5
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getNombreEmployeJPQL(EmployeServiceImpl.java:194):194 - ** end  getNumberEmployeeJPQL without error 
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@ec3944
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@ec3944 ajouter
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:148):148 - Dans deleteDepartementById() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:149):149 - Suppression du departement 22
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:160):160 - Suppression du departement terminée
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteDepartementById(EntrepriseServiceImpl.java:161):161 - Sortie de deleteDepartementById sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:190):190 - Dans UpdateEntreprise() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:191):191 - Update de l'entreprise 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:195):195 - Update de l'entreprise fait 
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.updateEntreprise(EntrepriseServiceImpl.java:196):196 - Sortie de UpdateEntreprise sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@1760e688
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@1760e688 ajouter
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=1, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:22:41 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:22:41 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:207):207 - Dans getallEntreprises() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:208):208 - Get de tous les entreprises 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:212):212 - Get de tous les entreprises fait 
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getallEntreprises(EntrepriseServiceImpl.java:213):213 - Sortie de getallEntreprises sans erreurs
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:124):124 - Dans deleteEntrepriseById() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:125):125 - Suppression de l'entreprise 54
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:137):137 - Suppression de l'entreprise terminée
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.deleteEntrepriseById(EntrepriseServiceImpl.java:138):138 - Sortie de deleteEntrepriseById sans erreurs true
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 3
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=7, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@67292fc7
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@67292fc7 ajouter
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 64 a l'entreprise 7
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=9, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:51):51 - Dans AjouterDepartement() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:52):52 - Ajouter departement tn.esprit.spring.entities.Departement@11174bf
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:56):56 - Departement tn.esprit.spring.entities.Departement@11174bf ajouter
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterDepartement(EntrepriseServiceImpl.java:57):57 - Sortie de AjouterDepartement sans erreurs
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:67):67 - Dans affecterDepartementAEntreprise() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:68):68 - Affectation du departement 65 a l'entreprise 9
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:89):89 - Affectation terminée !!!
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.affecterDepartementAEntreprise(EntrepriseServiceImpl.java:90):90 - Sortie de affecterDepartementAEntreprise sans erreurs true
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:33):33 - Dans ajouterEntreprise() : 
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:34):34 - Ajout de l'entreprise Entreprise [id=0, name=testent, raisonSocial=testraisonSocial]
+2021-12-02 23:22:42 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:40):40 - Ajout entreprise fait !!!
+2021-12-02 23:22:42 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.ajouterEntreprise(EntrepriseServiceImpl.java:41):41 - Sortie de ajouterEntreprise sans erreurs
