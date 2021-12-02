@@ -13,6 +13,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import tn.esprit.spring.entities.*;
 import tn.esprit.spring.repository.ContratRepository;
 
+import static org.junit.Assert.assertEquals;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -70,6 +72,24 @@ public class EmployeServiceImplTest {
         department_1 = new Departement(28, "Mobile", employeesList, entreprise);
         entreprise.addDepartement(department_1);
     }
+    /*  INES TEST  */
+    
+    @Test
+	public void ajouterEmploye() throws ParseException {
+	
+		Employe em = new Employe(5,"Manel", "Mnif", "manel.mnif@esprit.tn",true,Role.INGENIEUR);
+		int employeId = employeeService.ajouterEmploye(em); 
+		assertEquals("check ajout employé ",15,employeId);
+	}
+	@Test
+	public void ajouterContrat() throws ParseException {
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+		Date d = dateFormat.parse("2020-10-30");
+		Contrat c = new Contrat(155,d, "CVP", 3200);
+		
+		int ContratRef = employeeService.ajouterContrat(c); 
+		assertEquals("check ajout contrat ",155,ContratRef);
+	}
 
     /*  DONIA TEST  */
     @Test
