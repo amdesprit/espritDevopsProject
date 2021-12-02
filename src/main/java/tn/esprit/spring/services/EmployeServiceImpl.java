@@ -1,30 +1,24 @@
 package tn.esprit.spring.services;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import tn.esprit.spring.controller.RestControlEmploye;
-import tn.esprit.spring.entities.Contrat;
-import tn.esprit.spring.entities.Departement;
-import tn.esprit.spring.entities.Employe;
-import tn.esprit.spring.entities.Entreprise;
-import tn.esprit.spring.entities.Mission;
-import tn.esprit.spring.entities.Timesheet;
+import tn.esprit.spring.entities.*;
 import tn.esprit.spring.repository.ContratRepository;
 import tn.esprit.spring.repository.DepartementRepository;
 import tn.esprit.spring.repository.EmployeRepository;
 import tn.esprit.spring.repository.TimesheetRepository;
 
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 public class EmployeServiceImpl implements IEmployeService {
 	
-	private static final Logger log = Logger.getLogger(RestControlEmploye.class);
+    private static final Logger log = Logger.getLogger(IEmployeService.class);
 
 
 	@Autowired
@@ -35,7 +29,7 @@ public class EmployeServiceImpl implements IEmployeService {
 	ContratRepository contratRepoistory;
 	@Autowired
 	TimesheetRepository timesheetRepository;
-
+	/* INES */
 	public int ajouterEmploye(Employe employe) {
 		log.info("Dans ajouterEmploye() : ");
 		log.debug("Ajout de l'emplyé " + employe);
@@ -46,7 +40,7 @@ public class EmployeServiceImpl implements IEmployeService {
 			
 		} catch (Exception e) {
 			log.error("Erreure dans ajouterEmploye() : " + e);
-		}
+    }
 
 		return employe.getId();
 		
@@ -98,9 +92,7 @@ public class EmployeServiceImpl implements IEmployeService {
 
 	}
 	@Transactional
-	//supprimer l'employe du departement
-	public void desaffecterEmployeDuDepartement(int employeId, int depId)
-	{
+    public void desaffecterEmployeDuDepartement(int employeId, int depId) {
 		log.info("Dans desaffecterEmployeDuDepartement() : ");
     	
 		Departement dep = deptRepoistory.findById(depId).get();
@@ -159,8 +151,8 @@ public class EmployeServiceImpl implements IEmployeService {
 		Employe employeManagedEntity = employeRepository.findById(employeId).get();
 		return employeManagedEntity.getPrenom();
 	}
-	public void deleteEmployeById(int employeId)
-	{
+
+    public void deleteEmployeById(int employeId) {
 		log.info("Dans deleteEmployeById() : ");
 		log.debug("supperssion de l employé " + employeId);
 		
@@ -204,55 +196,130 @@ public class EmployeServiceImpl implements IEmployeService {
 		}
 	}
 
+
+
+    /* DONIA */
 	public int getNombreEmployeJPQL() {
-		return employeRepository.countemp();
+        log.info("** start  getNumberEmployeeJPQL : ");
+        int count = 0;
+        try {
+            count = employeRepository.countemp();
+            log.debug(" -- the numbers of employee is :"+count);
+            log.info("** end  getNumberEmployeeJPQL without error ");
+        }catch (Exception e ){
+            log.info("** end  getNumberEmployeeJPQL with error : "+e);
 	}
+        return count;
+    }
 	
 	public List<String> getAllEmployeNamesJPQL() {
-		return employeRepository.employeNames();
-
+        log.info("** start  getAllEmployeeNamesJPQL : ");
+        List<String> names = null;
+        try {
+            names = employeRepository.employeNames();
+            log.debug(" -- N° 1 : Names of employee : "+names);
+            log.info("** end  getAllEmployeeNamesJPQL without error ");
+        }catch(Exception e ){
+            log.info("** end  getAllEmployeeNamesJPQL with error : "+e);
 	}
+        return names;
+    }
 	
 	public List<Employe> getAllEmployeByEntreprise(Entreprise entreprise) {
-		return employeRepository.getAllEmployeByEntreprisec(entreprise);
+        log.info("** start  getAllEmployeeByEnterprise : ");
+        List<Employe> employees = null;
+        try {
+            employees = employeRepository.getAllEmployeByEntreprisec(entreprise);
+            log.debug(" -- N° 1 : the number of employees of the enterprise :" + entreprise.getName() +" .. is :" + employees.size() );
+            List <String> emp_names = employees.stream().map(Employe::getNom).collect(Collectors.toList());
+            log.debug(" -- N° 2 : their names are :" + emp_names );
+            log.info("** end  getAllEmployeeByEnterprise without error");
+        }catch(Exception e )
+        {
+            log.info("** end  getAllEmployeeByEnterprise with error : "+e);
 	}
+        return employees;
+    }
 
 	public void mettreAjourEmailByEmployeIdJPQL(String email, int employeId) {
+        log.info("** start  UpdateEmailByEmployeeIdJPQL : ");
+        try {
+            log.debug(" -- N° 1 : the employee :" + employeId +" will have a new mail :" + email );
 		employeRepository.mettreAjourEmailByEmployeIdJPQL(email, employeId);
+            log.debug(" -- N° 2 : the employee :" + employeId +" updated successfully " );
+            log.info("** end  UpdateEmailByEmployeeIdJPQL without error ");
+        }catch (Exception e ){
+            log.info("** end  UpdateEmailByEmployeeIdJPQL with error : "+e);
+        }
 
 	}
+
 	public void deleteAllContratJPQL() {
+        log.info("** start  deleteAllContactJPQL : ");
+        try {
          employeRepository.deleteAllContratJPQL();
+            log.info("** end  deleteAllContactJPQL without error");
+        }catch(Exception e ){
+            log.error("** end  deleteAllContactJPQL with error "+e);
 	}
+    }
 	
 	public float getSalaireByEmployeIdJPQL(int employeId) {
 		
-		log.info("Dans getSalaireByEmployeIdJPQL() : ");
-    	log.debug("Afficher salaire de l'employe " + employeId);
-		
+        log.info("** start  getSalaryByEmployeeIdJPQL : ");
+        log.debug(" -- N° 1 : the employee :"+employeId  );
 		float salaire = 0;
 		try {
 			salaire = employeRepository.getSalaireByEmployeIdJPQL(employeId);
-	    	log.debug("getSalaireByEmployeIdJPQL fait ");
-	    	log.info("Sortie de getSalaireByEmployeIdJPQL sans erreurs ");
+            log.debug(" -- N° 2 : his salary is :"+salaire  );
+            log.info("** end  getSalaryByEmployeeIdJPQL  without error ");
 		} catch (Exception e) {
-			log.error("Erreur dans getSalaireByEmployeIdJPQL " + e);
+            log.error("** end  getSalaryByEmployeeIdJPQL  with error "+e);
 		}
 		
 		return salaire; 
 	}
 
 	public Double getSalaireMoyenByDepartementId(int departementId) {
-		return employeRepository.getSalaireMoyenByDepartementId(departementId);
+        log.info("** start  getAverageSalaryByDepartmentId : ");
+        log.debug(" -- N° 1 : the department ID :"+departementId );
+        double average_salary=0;
+        try {
+            average_salary = employeRepository.getSalaireMoyenByDepartementId(departementId);
+            log.debug(" -- N° 2 : average salary :"+average_salary );
+            log.info("** end  getAverageSalaryByDepartmentId  without error ");
+        }catch (Exception e )
+        {
+            log.info("** end  getAverageSalaryByDepartmentId  with error : "+e);
 	}
+        return average_salary;
+    }
 	
 	public List<Timesheet> getTimesheetsByMissionAndDate(Employe employe, Mission mission, Date dateDebut,
 			Date dateFin) {
-		return timesheetRepository.getTimesheetsByMissionAndDate(employe, mission, dateDebut, dateFin);
+        log.info("** start  getTimeSheetsByMissionAndDate : ");
+        List<Timesheet> timesheetList = null;
+        try {
+            log.debug(" -- N° 1 : the information of timeSheet are :\nemployee : " +employe.getId()+"\nmission : "+mission.getName()+"\ndate : "+dateDebut+" -> "+dateFin );
+            timesheetList = timesheetRepository.getTimesheetsByMissionAndDate(employe, mission, dateDebut, dateFin);
+            log.debug(" -- N° 2 : time sheet found successfully .. count  : " +timesheetList.size() );
+            log.info("** end  getTimeSheetsByMissionAndDate without error ");
+        }catch (Exception e ){
+            log.info("** end  getTimeSheetsByMissionAndDate with error : "+e);
 	}
-
+        return timesheetList;
+    }
 	public List<Employe> getAllEmployes() {
-				return (List<Employe>) employeRepository.findAll();
+        log.info("** start  getAllEmployees : ");
+        List<Employe> employeeList = null;
+        try {
+            employeeList = (List<Employe>) employeRepository.findAll();
+            log.debug(" -- N° 1 : the employee list count :" +employeeList.size() );
+            log.info("** end  getAllEmployees without error ");
+        }catch(Exception e ){
+            log.info("** end  getAllEmployees with error  : "+e);
 	}
+        return employeeList ;
+    }
 
 }

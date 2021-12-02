@@ -38,11 +38,22 @@ public class Departement implements Serializable {
 	public Departement() {
 		super();
 	}
-	
+
+	public Departement(int id, String name, List<Employe> employes, Entreprise entreprise) {
+		this.id = id;
+		this.name = name;
+		this.employes = employes;
+		this.entreprise = entreprise;
+	}
+
 	public Departement(String name) {
 		this.name = name;
 	}
 	
+	public Departement(DepartementModel dep) {
+		this.name = dep.getName();
+	}
+
 	public int getId() {
 		return id;
 	}

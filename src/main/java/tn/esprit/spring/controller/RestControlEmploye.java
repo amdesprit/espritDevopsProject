@@ -39,7 +39,7 @@ public class RestControlEmploye {
 	
 	// http://localhost:8081/SpringMVC/servlet/ajouterEmployer
 	//{"id":1,"nom":"kallel", "prenom":"khaled", "email":"Khaled.kallel@ssiiconsulting.tn", "isActif":true, "role":"INGENIEUR"}
-	
+	/*INES*/
 	@PostMapping("/ajouterEmployer")
 	public Employe ajouterEmploye(@RequestBody Employe employe)
 	{
@@ -101,7 +101,7 @@ public class RestControlEmploye {
 		iemployeservice.deleteContratById(contratId);
 	}
 
-    
+	/*DONIA*/
     // URL : http://localhost:8081/SpringMVC/servlet/getNombreEmployeJPQL
     @GetMapping(value = "getNombreEmployeJPQL")
 	public int getNombreEmployeJPQL() {
