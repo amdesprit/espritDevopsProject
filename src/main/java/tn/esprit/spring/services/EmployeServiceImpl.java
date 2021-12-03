@@ -33,59 +33,121 @@ public class EmployeServiceImpl implements IEmployeService {
 
     /* INES */
     public int ajouterEmploye(Employe employe) {
-        employeRepository.save(employe);
-        return employe.getId();
+    	log.info("Dans ajouterEmploye() : ");
+		log.debug("Ajout de l'emplyé " + employe);
+		try {
+			employeRepository.save(employe);
+			log.debug("Ajout Employé fait !!!");
+			log.info("Sortie de ajouterEmployé sans erreurs");
+			
+		} catch (Exception e) {
+			log.error("Erreure dans ajouterEmploye() : " + e);
+    }
+
+		return employe.getId();
     }
 
     public void mettreAjourEmailByEmployeId(String email, int employeId) {
-        Optional<Employe> employe = employeRepository.findById(employeId);
-        if(employe.isPresent())
-        {
-            employe.get().setEmail(email);
-            employeRepository.save(employe.get());
-        }
+    	   log.info("** start  mettreAjourEmailByEmployeId : ");
+	        try {
+	        	 Optional<Employe> employe = employeRepository.findById(employeId);
+	             if(employe.isPresent())
+	             {
+	                 employe.get().setEmail(email);
+	                 employeRepository.save(employe.get());
+	             }
+	            log.debug(" -- N° 2 : the employee :" + employeId +" updated successfully " );
+	            log.info("** end  mettreAjourEmailByEmployeId without error ");
+	        }catch (Exception e ){
+	            log.info("** end  mettreAjourEmailByEmployeId with error : "+e);
+	        }
     }
 
     public void affecterEmployeADepartement(int employeId, int depId) {
-        Optional<Departement> depManagedEntity = deptRepoistory.findById(depId);
+		log.info("Dans affecterEmployeADepartement() : ");
+    	log.debug("Affectation du Departement " + depId + " a l'Employe " + employeId);
+    	Optional<Departement> depManagedEntity = deptRepoistory.findById(depId);
         Optional<Employe> employeManagedEntity = employeRepository.findById(employeId);
         if (depManagedEntity.isPresent() && employeManagedEntity.isPresent()) {
-            if (depManagedEntity.get().getEmployes() == null) {
-                List<Employe> employes = new ArrayList<>();
-                employes.add(employeManagedEntity.get());
-                depManagedEntity.get().setEmployes(employes);
-            } else {
-                depManagedEntity.get().getEmployes().add(employeManagedEntity.get());
-            }
+        	
+        	   if (depManagedEntity.get().getEmployes() == null) {
+                   List<Employe> employes = new ArrayList<>();
+                   try {
+                	   employes.add(employeManagedEntity.get());
+                       depManagedEntity.get().setEmployes(employes);
+	       				log.debug("Affectation terminée !!!");  
+	       				log.info("Sortie de affecterEmployeADepartement sans erreurs");
+       				
+       			} catch (Exception e) {
+       				log.error("Dans affecterEmployeADepartement() : "+ e);
+       			}
+                  
+               } else {
+            		try {
+        				depManagedEntity.get().getEmployes().add(employeManagedEntity.get());
+        				
+        			}catch(Exception exp){
+        				log.error("Dans affecterEmployeADepartement() : "+ exp);
+        			}
+        			
+               }
+        	
         }
     }
 
     @Transactional
     public void desaffecterEmployeDuDepartement(int employeId, int depId) {
-        Optional<Departement> dep = deptRepoistory.findById(depId);
-        if(dep.isPresent()) {
-            int employeNb = dep.get().getEmployes().size();
-            for (int index = 0; index < employeNb; index++) {
-                if (dep.get().getEmployes().get(index).getId() == employeId) {
-                    dep.get().getEmployes().remove(index);
-                    break;
-                }
-            }
-        }
+    	log.info("Dans desaffecterEmployeDuDepartement() : ");
+   	 	Optional<Departement> dep = deptRepoistory.findById(depId);
+   	 	if(dep.isPresent()) {
+		  	int employeNb = dep.get().getEmployes().size();
+		  	 for (int index = 0; index < employeNb; index++) {
+		  		if (dep.get().getEmployes().get(index).getId() == employeId) {
+					try {
+						 dep.get().getEmployes().remove(index);
+		                    break;
+					}catch(Exception exp){
+						log.error("Dans desaffecterEmployeDuDepartement() : "+ exp);
+					}
+				}
+			}
+   	 	}
     }
 
     public int ajouterContrat(Contrat contrat) {
-        contratRepoistory.save(contrat);
-        return contrat.getReference();
+    	log.info("Dans ajouterContrat() : ");
+		log.debug("Ajout du contrat " + contrat);
+		
+		try {
+			contratRepoistory.save(contrat);
+			
+			log.debug("Ajout Contrat fait !!!");
+			log.info("Sortie de ajouterContrat sans erreurs");
+			
+		} catch (Exception e) {
+			log.error("Erreure dans ajouterContrat() : " + e);
+		}
+		
+		return contrat.getReference();
     }
 
     public void affecterContratAEmploye(int contratId, int employeId) {
+    	log.info("Dans affecterContratAEmploye() : ");
+		log.debug("affecter du contrat " + contratId + "à l'employé" + employeId );
         Optional<Contrat> contratManagedEntity = contratRepoistory.findById(contratId);
         Optional<Employe> employeManagedEntity = employeRepository.findById(employeId);
+        
         if(contratManagedEntity.isPresent() && employeManagedEntity.isPresent())
         {
-            contratManagedEntity.get().setEmploye(employeManagedEntity.get());
-            contratRepoistory.save(contratManagedEntity.get());
+        	try {
+    			contratManagedEntity.get().setEmploye(employeManagedEntity.get());
+                contratRepoistory.save(contratManagedEntity.get());
+    			log.debug("affectation du Contrat fait !!!");
+    			log.info("Sortie de affecterContratAEmploye sans erreurs");
+    			
+    		} catch (Exception e) {
+    			log.error("Erreure dans affecterContratAEmploye() : " + e);
+    		}
         }
     }
 
@@ -110,12 +172,17 @@ public class EmployeServiceImpl implements IEmployeService {
     }
 
     public void deleteContratById(int contratId) {
+    	log.info("Dans deleteEmployeById() : ");
+		log.debug("supperssion de l employé " + contratId);
         Optional<Contrat> contratManagedEntity = contratRepoistory.findById(contratId);
-        contratManagedEntity.ifPresent(contrat -> contratRepoistory.delete(contrat));
-
+		try {
+			contratManagedEntity.ifPresent(contrat -> contratRepoistory.delete(contrat));
+			log.debug("suppression faite !!!");
+			log.info("Sortie de deleteContratById sans erreurs");
+		} catch (Exception e) {
+			log.error("Erreure dans deleteContratById() : " + e);
+		}
     }
-
-
 
     /* DONIA */
     public int getNombreEmployeJPQL() {

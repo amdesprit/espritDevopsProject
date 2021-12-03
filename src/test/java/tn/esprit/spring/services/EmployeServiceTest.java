@@ -11,6 +11,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import tn.esprit.spring.entities.*;
 import tn.esprit.spring.repository.*;
 
+import static org.junit.Assert.assertEquals;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -93,5 +95,23 @@ class EmployeServiceTest {
         List<Employe> employees = employeeService.getAllEmployes();
         Assert.assertNotNull(employees);
     }
+    
+    @Test
+ 	public void ajouterEmploye() throws ParseException {
+ 	
+ 		Employe em = new Employe("xavier", "Olivier", "xavier.Olivier@esprit.tn",true,Role.INGENIEUR);
+ 		int employeId = employeeService.ajouterEmploye(em); 
+ 		assertEquals("check ajout employé ",5,employeId);
+ 	}
+ 	@Test
+ 	public void ajouterContrat() throws ParseException {
+ 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+ 		Date d = dateFormat.parse("2020-10-30");
+ 		Contrat c = new Contrat(155,d, "CVP", 3200);
+ 		
+ 		int ContratRef = employeeService.ajouterContrat(c); 
+ 		assertEquals("check ajout contrat ",155,ContratRef);
+ 	}
+
 
 }
