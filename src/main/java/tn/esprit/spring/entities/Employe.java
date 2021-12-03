@@ -2,6 +2,7 @@ package tn.esprit.spring.entities;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Objects;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -51,8 +52,8 @@ public class Employe implements Serializable {
 	@JsonIgnore
 	@OneToMany(mappedBy="employe")
 	private List<Timesheet> timesheets;
-	
-	
+
+
 	public Employe() {
 		super();
 	}
@@ -64,7 +65,17 @@ public class Employe implements Serializable {
 		this.isActif = isActif;
 		this.role = role;
 	}
-	
+
+	public Employe(EmployeModel employeModel)
+	{
+		this.id = employeModel.getId();
+		this.prenom = employeModel.getPrenom();
+		this.nom = employeModel.getNom();
+		this.email = employeModel.getEmail();
+		this.isActif = employeModel.isActif();
+		this.role = employeModel.getRole();
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -136,7 +147,22 @@ public class Employe implements Serializable {
 	public void setTimesheets(List<Timesheet> timesheets) {
 		this.timesheets = timesheets;
 	}
-	
-	
-	
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Employe employe = (Employe) o;
+		return id == employe.id &&
+				isActif == employe.isActif &&
+				Objects.equals(prenom, employe.prenom) &&
+				Objects.equals(nom, employe.nom) &&
+				Objects.equals(email, employe.email) &&
+				role == employe.role;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, prenom, nom, email, isActif, role);
+	}
 }

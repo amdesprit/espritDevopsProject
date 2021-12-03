@@ -1,7 +1,0 @@
-
-2021-12-03 16:23:56 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:172):172 - Dans getEntrepriseById() : 
-2021-12-03 16:23:56 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:173):173 - Get de l'entreprise 1
-2021-12-03 16:23:56 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:178):178 - Get de l'entreprise fait 
-2021-12-03 16:23:56 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl.getEntrepriseById(EntrepriseServiceImpl.java:179):179 - Sortie de getEntrepriseById sans erreurs
-2021-12-03 16:24:25 [INFO ] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:142):142 - Dans getSalaireByEmployeIdJPQL() : 
-2021-12-03 16:24:25 [DEBUG] tn.esprit.spring.services.EmployeServiceImpl.getSalaireByEmployeIdJPQL(EmployeServiceImpl.java:143):143 - Afficher salaire de l'employe 1
