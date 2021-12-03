@@ -29,14 +29,28 @@ MM-dd HH:mm:ss} %l:%L - %m%n" /> </layout>
 
 
 <appender name="file" class="org.apache.log4j.RollingFileAppender">
-<param name="append" value="true" /> <param name="maxFileSize" value="10MB" />
-<param name="maxBackupIndex" value="10" /> <param name="file" value="logs/tracelogs.log"
-/>
+       <param name="append" value="true"/>
+       <param name="maxFileSize" value="10MB"/>
+       <param name="maxBackupIndex" value="10"/>
+       <param name="file" value="logs/tracelogs.log"/>
 
-<layout class="org.apache.log4j.PatternLayout"> <param name="ConversionPattern" value="%d{yyyy-
-MM-dd HH:mm:ss} %l:%L - %m%n" /></layout>
+       <layout class="org.apache.log4j.PatternLayout">
+           <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%-5p] %l:%L - %m%n"/>
+       </layout>
 
+       <filter class="org.apache.log4j.varia.LevelMatchFilter">
+           <param name="LevelToMatch" value="INFO"/>
+           <param name="AcceptOnMatch" value="true"/>
+       </filter>
+       <filter class="org.apache.log4j.varia.LevelMatchFilter">
+           <param name="LevelToMatch" value="DEBUG"/>
+           <param name="AcceptOnMatch" value="true"/>
+       </filter>
+       <filter class="org.apache.log4j.varia.DenyAllFilter"/>
 </appender>
+
+
+
 
 <!-- 
     <root>
