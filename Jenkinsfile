@@ -3,7 +3,7 @@ pipeline {
 
 environment {
 registry = "ahmedesprit/timesheet"
-registryCredential = 'docker_hub'
+registryCredential = 'dockerHub'
 dockerImage = ''
             }
 
@@ -15,7 +15,6 @@ stage('Cloning Project from Git') {
 steps {
      
    sh  "git clone 'https://github.com/amdesprit/espritDevopsProject'" 
-   sh "git branch"
 
     }}
 
