@@ -1,5 +1,5 @@
 pipeline { 
-    environment {
+    environment { 
         EMAIL_RECIPIENTS = "donia.azib@esprit.tn"
 		registry = "dockerhubapp/timesheetdockerimage"
 		registryCredential = 'dockerHub'
