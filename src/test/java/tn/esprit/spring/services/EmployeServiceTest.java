@@ -96,13 +96,7 @@ class EmployeServiceTest {
         Assert.assertNotNull(employees);
     }
     
-    @Test
- 	public void ajouterEmploye() throws ParseException {
- 	
- 		Employe em = new Employe("Mess", "Maeiz", "Maeiz.Maeiz@esprit.tn",true,Role.INGENIEUR);
- 		int employeId = employeeService.ajouterEmploye(em); 
- 		assertEquals("check ajout employé ",0,employeId);
- 	}
+   
  	@Test
  	public void ajouterContrat() throws ParseException {
  		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
