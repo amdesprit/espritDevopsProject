@@ -99,9 +99,9 @@ class EmployeServiceTest {
     @Test
  	public void ajouterEmploye() throws ParseException {
  	
- 		Employe em = new Employe("xavier", "Olivier", "xavier.Olivier@esprit.tn",true,Role.INGENIEUR);
+ 		Employe em = new Employe("Mess", "Maeiz", "Maeiz.Maeiz@esprit.tn",true,Role.INGENIEUR);
  		int employeId = employeeService.ajouterEmploye(em); 
- 		assertEquals("check ajout employé ",5,employeId);
+ 		assertEquals("check ajout employé ",0,employeId);
  	}
  	@Test
  	public void ajouterContrat() throws ParseException {
